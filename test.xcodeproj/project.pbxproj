@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8322ED492D6BB5630024FA0D /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8322ED482D6BB5630024FA0D /* SplashScreenView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		83A4B77A2D5168E700770C33 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,7 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		83A4B7682D5168E500770C33 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8322ED482D6BB5630024FA0D /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		83A4B7682D5168E500770C33 /* Tutoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A4B7792D5168E700770C33 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A4B7832D5168E700770C33 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -43,6 +48,16 @@
 		83A4B7862D5168E700770C33 /* testUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = testUITests;
+			sourceTree = "<group>";
+		};
+		83BBCADF2DCD6F26006EDA4B /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		83BBCAE32DCD6F8A006EDA4B /* Utilities */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,17 +90,20 @@
 		83A4B75F2D5168E500770C33 = {
 			isa = PBXGroup;
 			children = (
+				8322ED482D6BB5630024FA0D /* SplashScreenView.swift */,
 				83A4B76A2D5168E500770C33 /* test */,
 				83A4B77C2D5168E700770C33 /* testTests */,
 				83A4B7862D5168E700770C33 /* testUITests */,
 				83A4B7692D5168E500770C33 /* Products */,
+				83BBCADF2DCD6F26006EDA4B /* Models */,
+				83BBCAE32DCD6F8A006EDA4B /* Utilities */,
 			);
 			sourceTree = "<group>";
 		};
 		83A4B7692D5168E500770C33 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83A4B7682D5168E500770C33 /* test.app */,
+				83A4B7682D5168E500770C33 /* Tutoria.app */,
 				83A4B7792D5168E700770C33 /* testTests.xctest */,
 				83A4B7832D5168E700770C33 /* testUITests.xctest */,
 			);
@@ -95,9 +113,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83A4B7672D5168E500770C33 /* test */ = {
+		83A4B7672D5168E500770C33 /* Tutoria */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83A4B78D2D5168E700770C33 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = 83A4B78D2D5168E700770C33 /* Build configuration list for PBXNativeTarget "Tutoria" */;
 			buildPhases = (
 				83A4B7642D5168E500770C33 /* Sources */,
 				83A4B7652D5168E500770C33 /* Frameworks */,
@@ -109,12 +127,14 @@
 			);
 			fileSystemSynchronizedGroups = (
 				83A4B76A2D5168E500770C33 /* test */,
+				83BBCADF2DCD6F26006EDA4B /* Models */,
+				83BBCAE32DCD6F8A006EDA4B /* Utilities */,
 			);
-			name = test;
+			name = Tutoria;
 			packageProductDependencies = (
 			);
 			productName = test;
-			productReference = 83A4B7682D5168E500770C33 /* test.app */;
+			productReference = 83A4B7682D5168E500770C33 /* Tutoria.app */;
 			productType = "com.apple.product-type.application";
 		};
 		83A4B7782D5168E700770C33 /* testTests */ = {
@@ -200,7 +220,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83A4B7672D5168E500770C33 /* test */,
+				83A4B7672D5168E500770C33 /* Tutoria */,
 				83A4B7782D5168E700770C33 /* testTests */,
 				83A4B7822D5168E700770C33 /* testUITests */,
 			);
@@ -236,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8322ED492D6BB5630024FA0D /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,12 +279,12 @@
 /* Begin PBXTargetDependency section */
 		83A4B77B2D5168E700770C33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83A4B7672D5168E500770C33 /* test */;
+			target = 83A4B7672D5168E500770C33 /* Tutoria */;
 			targetProxy = 83A4B77A2D5168E700770C33 /* PBXContainerItemProxy */;
 		};
 		83A4B7852D5168E700770C33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83A4B7672D5168E500770C33 /* test */;
+			target = 83A4B7672D5168E500770C33 /* Tutoria */;
 			targetProxy = 83A4B7842D5168E700770C33 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -400,6 +421,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -437,6 +459,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -555,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83A4B78D2D5168E700770C33 /* Build configuration list for PBXNativeTarget "test" */ = {
+		83A4B78D2D5168E700770C33 /* Build configuration list for PBXNativeTarget "Tutoria" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83A4B78E2D5168E700770C33 /* Debug */,
