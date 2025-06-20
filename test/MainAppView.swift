@@ -8,24 +8,24 @@ import SwiftUI
 
 struct MainAppView: View {
     @State private var selectedTab = 0
+    @State private var showTabBar = true
     var studentDetails: StudentDetails?
 
     var body: some View {
         VStack(spacing: 0) {
             TabView(selection: $selectedTab) {
-                FirstView()
+                FirstView(showTabBar: $showTabBar, selectedTab: $selectedTab)
                     .tag(0)
-                
+
                 SecondView()
                     .tag(1)
-                
+
                 ThirdView()
                     .tag(2)
-                
+
                 FourthView()
                     .tag(3)
-                
-                // Wrap ProfileView in a NavigationStack
+
                 NavigationStack {
                     ProfileView(studentDetails: studentDetails ?? StudentDetails(
                         fullName: "Unknown",
@@ -41,21 +41,29 @@ struct MainAppView: View {
             .tabViewStyle(.page(indexDisplayMode: .never))
             .edgesIgnoringSafeArea(.all)
 
-            // Tab Bar
-            HStack(spacing: 0) {
-                ForEach(0..<5, id: \.self) { index in
-                    TabBarButton(
-                        systemName: tabBarItems[index].icon,
-                        label: tabBarItems[index].label,
-                        isSelected: selectedTab == index
-                    ) {
-                        selectedTab = index
+            // Tab Bar — flat design without rounded corners
+            if showTabBar {
+                HStack(spacing: 0) {
+                    ForEach(0..<5, id: \.self) { index in
+                        TabBarButton(
+                            systemName: tabBarItems[index].icon,
+                            label: tabBarItems[index].label,
+                            isSelected: selectedTab == index
+                        ) {
+                            selectedTab = index
+                        }
+                        .frame(maxWidth: .infinity)
                     }
-                    .frame(maxWidth: .infinity)
                 }
+                .padding(.top, 12)
+                .padding(.bottom, 30) // lifts it above swipe area
+                .background(
+                    Color.black
+                        .edgesIgnoringSafeArea(.bottom)
+                )
+                .transition(.move(edge: .bottom).combined(with: .opacity))
+                .animation(.easeInOut(duration: 0.3), value: showTabBar)
             }
-            .frame(height: 60)
-            .background(Color.black.edgesIgnoringSafeArea(.bottom))
         }
         .edgesIgnoringSafeArea(.all)
     }

@@ -7,38 +7,38 @@
 import SwiftUI
 
 struct SettingsView: View {
-    @Environment(\.presentationMode) var presentationMode
+    @Binding var isActive: Bool
 
     var body: some View {
         ZStack {
             Color.white.ignoresSafeArea()
             VStack {
-                // Custom Navigation Bar
+                // Custom Back Button
                 HStack {
                     Button(action: {
-                        presentationMode.wrappedValue.dismiss()
+                        isActive = false // Properly dismiss and reset navigation
                     }) {
                         HStack {
                             Image(systemName: "chevron.left")
                             Text("Back")
                         }
                         .foregroundColor(.green)
-                        .padding(.top, 50) // Adjust this value to move the button below the safe area
+                        .padding(.top, 50)
                     }
                     Spacer()
                 }
                 .padding(.horizontal)
-                .background(Color.white) // Ensure the background matches the view
+                .background(Color.white)
 
                 // Content
                 Text("Settings Page")
                     .font(.title)
                     .foregroundColor(.black)
-                    .padding(.top, 20) // Add some padding to separate from the navigation bar
+                    .padding(.top, 20)
                 Spacer()
             }
         }
-        .navigationTitle("") // Hide the default navigation title
-        .navigationBarHidden(true) // Hide the default navigation bar
+        .navigationTitle("")
+        .navigationBarHidden(true)
     }
 }

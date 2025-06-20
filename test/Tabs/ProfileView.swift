@@ -10,25 +10,29 @@ import SwiftUI
 struct ProfileView: View {
     var studentDetails: StudentDetails
 
+    @State private var isShowingSettings = false
+    @State private var isShowingHelp = false
+    @State private var isShowingAbout = false
+    @State private var isShowingWallet = false
+
     var body: some View {
         ZStack {
             Color.white.ignoresSafeArea()
 
             ScrollView {
                 VStack(spacing: 20) {
-                    // Add padding to push content below the safe area
-                    Spacer().frame(height: 60) // Adjust this height if needed
+                    Spacer().frame(height: 60)
 
-                    // Profile Title (Aligned to the left)
+                    // Profile Title
                     HStack {
                         Text("Profile")
                             .font(.largeTitle)
                             .fontWeight(.bold)
-                            .padding(.leading, 20) // Align with the left edge of the bubbles
-                        Spacer() // Push the title to the left
+                            .padding(.leading, 20)
+                        Spacer()
                     }
 
-                    // First Bubble (User Details)
+                    // User Details Bubble
                     VStack(alignment: .leading, spacing: 10) {
                         HStack {
                             Circle()
@@ -54,64 +58,73 @@ struct ProfileView: View {
                                     Text("High School: \(studentDetails.highSchoolName)")
                                 }
                             }
-                            .padding(.leading, 10) // Add some spacing between the image and text
+                            .padding(.leading, 10)
                         }
                     }
                     .padding()
-                    .frame(maxWidth: .infinity, alignment: .leading) // Align to the left
+                    .frame(maxWidth: .infinity, alignment: .leading)
                     .background(Color.green.opacity(0.1))
                     .cornerRadius(20)
-                    .shadow(color: .black.opacity(0.2), radius: 5, x: 0, y: 3) // Added shadow
-                    .padding(.horizontal, 20) // Add horizontal padding to align with the title
+                    .shadow(color: .black.opacity(0.2), radius: 5, x: 0, y: 3)
+                    .padding(.horizontal, 20)
 
                     // Second Bubble (Placeholder)
                     Text("Second Bubble Section")
                         .padding()
-                        .frame(maxWidth: .infinity, alignment: .leading) // Align to the left
+                        .frame(maxWidth: .infinity, alignment: .leading)
                         .background(Color.green.opacity(0.1))
                         .cornerRadius(20)
-                        .shadow(color: .black.opacity(0.2), radius: 5, x: 0, y: 3) // Added shadow
-                        .padding(.horizontal, 20) // Add horizontal padding to align with the title
+                        .shadow(color: .black.opacity(0.2), radius: 5, x: 0, y: 3)
+                        .padding(.horizontal, 20)
 
-                    // Third Bubble (List of Options)
+                    // Third Bubble (Navigation Buttons)
                     VStack(spacing: 0) {
-                        NavigationLink(destination: SettingsView()) {
+                        Button(action: { isShowingSettings = true }) {
                             Text("Settings")
                                 .frame(maxWidth: .infinity, alignment: .leading)
                                 .padding()
                                 .foregroundColor(.green)
                         }
                         Divider()
-                        
-                        NavigationLink(destination: HelpView()) {
+
+                        Button(action: { isShowingHelp = true }) {
                             Text("Help")
                                 .frame(maxWidth: .infinity, alignment: .leading)
                                 .padding()
                         }
                         Divider()
-                        
-                        NavigationLink(destination: AboutView()) {
+
+                        Button(action: { isShowingAbout = true }) {
                             Text("About")
                                 .frame(maxWidth: .infinity, alignment: .leading)
                                 .padding()
                         }
                         Divider()
-                        
-                        NavigationLink(destination: WalletView()) {
+
+                        Button(action: { isShowingWallet = true }) {
                             Text("Wallet")
                                 .frame(maxWidth: .infinity, alignment: .leading)
                                 .padding()
                         }
+
+                        // Navigation Links with state binding
+                        NavigationLink(destination: SettingsView(isActive: $isShowingSettings), isActive: $isShowingSettings) { EmptyView() }
+                        NavigationLink(destination: HelpView(), isActive: $isShowingHelp) { EmptyView() }
+                        NavigationLink(destination: AboutView(), isActive: $isShowingAbout) { EmptyView() }
+                        NavigationLink(destination: WalletView(), isActive: $isShowingWallet) { EmptyView() }
                     }
                     .background(Color.green.opacity(0.1))
                     .cornerRadius(20)
-                    .shadow(color: .black.opacity(0.2), radius: 5, x: 0, y: 3) // Added shadow
-                    .padding(.horizontal, 20) // Add horizontal padding to align with the title
+                    .shadow(color: .black.opacity(0.2), radius: 5, x: 0, y: 3)
+                    .padding(.horizontal, 20)
 
-                    Spacer() // Push everything to the top
+                    Spacer()
                 }
             }
         }
-        .navigationTitle("") // Hide the default navigation title
+        .navigationTitle("")
+        .navigationBarHidden(true)
     }
 }
+
+

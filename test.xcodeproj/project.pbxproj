@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8322ED492D6BB5630024FA0D /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8322ED482D6BB5630024FA0D /* SplashScreenView.swift */; };
+		83DA934A2E05149700423689 /* tutoria_vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 83DA93492E05149700423689 /* tutoria_vid.mp4 */; };
+		83DA93552E056AFE00423689 /* green_splatter.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DA93542E056AFE00423689 /* green_splatter.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		83A4B7682D5168E500770C33 /* Tutoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A4B7792D5168E700770C33 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A4B7832D5168E700770C33 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DA93492E05149700423689 /* tutoria_vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = tutoria_vid.mp4; sourceTree = "<group>"; };
+		83DA93542E056AFE00423689 /* green_splatter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_splatter.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -97,6 +101,8 @@
 				83A4B7692D5168E500770C33 /* Products */,
 				83BBCADF2DCD6F26006EDA4B /* Models */,
 				83BBCAE32DCD6F8A006EDA4B /* Utilities */,
+				83DA93492E05149700423689 /* tutoria_vid.mp4 */,
+				83DA93542E056AFE00423689 /* green_splatter.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,6 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83DA93552E056AFE00423689 /* green_splatter.png in Resources */,
+				83DA934A2E05149700423689 /* tutoria_vid.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +421,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
+				DEVELOPMENT_TEAM = R3DPAL9AWD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -431,7 +440,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "T-A1.test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tobiayeni.TA1Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -451,6 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
+				DEVELOPMENT_TEAM = R3DPAL9AWD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -469,7 +479,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "T-A1.test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tobiayeni.TA1Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
