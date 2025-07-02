@@ -15,7 +15,7 @@ struct Listing: Identifiable {
     let imageName: String
 }
 
-// Sample listings (leave this empty to simulate an empty marketplace)
+// Temporary sample listings (leave empty for now)
 let sampleListings: [Listing] = [
 //    Listing(title: "Biology 120 Textbook", price: 45.00, imageName: "bioBook"),
 //    Listing(title: "Graphing Calculator", price: 60.00, imageName: "calculator")
@@ -24,6 +24,7 @@ let sampleListings: [Listing] = [
 // MARK: - Main Marketplace View
 struct SecondView: View {
     let columns = [GridItem(.flexible()), GridItem(.flexible())]
+    @State private var showingNewListingView = false
 
     var body: some View {
         NavigationView {
@@ -46,8 +47,7 @@ struct SecondView: View {
                         .padding()
 
                     Button(action: {
-                        // TODO: Hook this up to a 'Post Listing' view
-                        print("Post Listing tapped")
+                        showingNewListingView = true
                     }) {
                         Text("Post Your First Listing")
                             .foregroundColor(.white)
@@ -57,6 +57,9 @@ struct SecondView: View {
                             .cornerRadius(12)
                     }
                     .padding(.horizontal)
+                    .sheet(isPresented: $showingNewListingView) {
+                        NewListingView()
+                    }
                 }
                 .padding()
                 .navigationTitle("Marketplace")
