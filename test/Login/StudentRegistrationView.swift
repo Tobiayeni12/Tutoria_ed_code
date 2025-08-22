@@ -17,23 +17,17 @@ struct StudentRegistrationView: View {
     
     var body: some View {
         ZStack {
-            Color.green
-                .ignoresSafeArea() // Ensure the green background covers the entire screen
-            Circle()
-                .scale(1.7)
-                .foregroundColor(.white.opacity(0.15))
-            Circle()
-                .scale(1.35)
-                .foregroundColor(.white)
+            Color.green.ignoresSafeArea()
+            Circle().scale(1.7).foregroundColor(.white.opacity(0.15))
+            Circle().scale(1.35).foregroundColor(.white)
             
             VStack(spacing: 20) {
                 Text("Student Registration")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                 
-                TextField("Full Name", text: $fullName)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .padding(.horizontal)
+                // Custom-styled text fields
+                StyledTextField(text: $fullName, placeholder: "Full Name")
                 
                 Picker("Level of Education", selection: $levelOfEducation) {
                     ForEach(educationLevels, id: \.self) { level in
@@ -44,21 +38,11 @@ struct StudentRegistrationView: View {
                 .padding(.horizontal)
                 
                 if levelOfEducation == "High School" {
-                    TextField("High School Name", text: $highSchoolName)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .padding(.horizontal)
+                    StyledTextField(text: $highSchoolName, placeholder: "High School Name")
                 } else {
-                    TextField("University Name", text: $universityName)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .padding(.horizontal)
-                    
-                    TextField("Year of Study", text: $yearOfStudy)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .padding(.horizontal)
-                    
-                    TextField("Major", text: $major)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .padding(.horizontal)
+                    StyledTextField(text: $universityName, placeholder: "University Name")
+                    StyledTextField(text: $yearOfStudy, placeholder: "Year of Study")
+                    StyledTextField(text: $major, placeholder: "Major")
                 }
                 
                 Button(action: {
@@ -98,5 +82,33 @@ struct StudentRegistrationView: View {
                 isActive: $showNextScreen
             ) { EmptyView() }
         )
+    }
+}
+
+/// Reusable styled text field (same as LoginView)
+private struct StyledTextField: View {
+    @Binding var text: String
+    let placeholder: String
+    
+    var body: some View {
+        ZStack(alignment: .leading) {
+            if text.isEmpty {
+                Text(placeholder)
+                    .foregroundColor(Color.black.opacity(0.35))
+                    .padding(.horizontal, 16)
+            }
+            
+            TextField("", text: $text)
+                .textInputAutocapitalization(.never)
+                .autocorrectionDisabled(true)
+                .foregroundColor(.black)
+                .padding(12)
+        }
+        .background(
+            RoundedRectangle(cornerRadius: 10)
+                .fill(Color.white)
+                .shadow(radius: 2, y: 1)
+        )
+        .padding(.horizontal)
     }
 }

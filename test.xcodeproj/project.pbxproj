@@ -39,6 +39,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		013AD3A42E59045F007ECE65 /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
+			sourceTree = "<group>";
+		};
 		01E0E5CE2E1591AB002F9809 /* Helpers */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Helpers;
@@ -99,6 +104,7 @@
 		83A4B75F2D5168E500770C33 = {
 			isa = PBXGroup;
 			children = (
+				013AD3A42E59045F007ECE65 /* Services */,
 				01E0E5CE2E1591AB002F9809 /* Helpers */,
 				8322ED482D6BB5630024FA0D /* SplashScreenView.swift */,
 				83A4B76A2D5168E500770C33 /* test */,
@@ -138,6 +144,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				013AD3A42E59045F007ECE65 /* Services */,
 				01E0E5CE2E1591AB002F9809 /* Helpers */,
 				83A4B76A2D5168E500770C33 /* test */,
 				83BBCADF2DCD6F26006EDA4B /* Models */,
@@ -428,7 +435,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
-				DEVELOPMENT_TEAM = R3DPAL9AWD;
+				DEVELOPMENT_TEAM = A7TQ5M7289;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -468,7 +475,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
-				DEVELOPMENT_TEAM = R3DPAL9AWD;
+				DEVELOPMENT_TEAM = A7TQ5M7289;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";

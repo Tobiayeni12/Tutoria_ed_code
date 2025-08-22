@@ -10,51 +10,56 @@ struct LoginView: View {
     @Binding var isLoggedIn: Bool
     @Binding var savedUsername: String
     @Binding var savedPassword: String
-    
+
     @State private var username: String = ""
     @State private var password: String = ""
     @State private var showUserTypeSelectionView: Bool = false
-    @State private var showLoginErrorAlert: Bool = false // Track login errors
+    @State private var showLoginErrorAlert: Bool = false
     @State private var isUsernameValid: Bool = true
     @State private var isPasswordValid: Bool = true
-    
+
+    // Focus handling so we can dismiss keyboard on screen tap
+    @FocusState private var focusedField: Field?
+    private enum Field { case username, password }
+
     var body: some View {
         NavigationView {
             ZStack {
-                Color.green
-                    .ignoresSafeArea() // Ensure the green background covers the entire screen
-                Circle()
-                    .scale(1.7)
-                    .foregroundColor(.white.opacity(0.15))
-                Circle()
-                    .scale(1.35)
-                    .foregroundColor(.white)
+                Color.green.ignoresSafeArea()
+                Circle().scale(1.7).foregroundColor(.white.opacity(0.15))
+                Circle().scale(1.35).foregroundColor(.white)
+
                 VStack(spacing: 20) {
                     Text("Welcome!")
-                        .font(.largeTitle)
-                        .fontWeight(.bold)
-                    
-                    TextField("Username", text: $username)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .padding(.horizontal)
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 5)
-                                .stroke(isUsernameValid ? Color.clear : Color.red, lineWidth: 1)
-                        )
+                        .font(.largeTitle).fontWeight(.bold)
 
-                    SecureField("Password", text: $password)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .padding(.horizontal)
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 5)
-                                .stroke(isPasswordValid ? Color.clear : Color.red, lineWidth: 1)
-                        )
+                    // Username
+                    StyledTextField(
+                        text: $username,
+                        placeholder: "Username",
+                        isInvalid: !isUsernameValid,
+                        isSecure: false
+                    )
+                    .focused($focusedField, equals: .username)
+                    .submitLabel(.next)
+                    .onSubmit { focusedField = .password }
 
-                    // Update the login button logic
+                    // Password
+                    StyledTextField(
+                        text: $password,
+                        placeholder: "Password",
+                        isInvalid: !isPasswordValid,
+                        isSecure: true
+                    )
+                    .focused($focusedField, equals: .password)
+                    .submitLabel(.done)
+                    .onSubmit { focusedField = nil }
+
+                    // Login
                     Button(action: {
                         isUsernameValid = username == savedUsername
                         isPasswordValid = password == savedPassword
-                        
+
                         if isUsernameValid && isPasswordValid {
                             isLoggedIn = true
                         } else {
@@ -75,11 +80,11 @@ struct LoginView: View {
                             title: Text("Login Failed"),
                             message: Text("Incorrect username or password. Please try again."),
                             dismissButton: .default(Text("OK"))
-                    )}
-                    
-                    Button(action: {
-                        showUserTypeSelectionView = true
-                    }) {
+                        )
+                    }
+
+                    // Create Account
+                    Button(action: { showUserTypeSelectionView = true }) {
                         Text("Create Account")
                             .font(.headline)
                             .foregroundColor(.white)
@@ -96,11 +101,66 @@ struct LoginView: View {
             .navigationTitle("Login")
             .background(
                 NavigationLink(
-                    destination: UserTypeSelectionView(isShowingCreateAccount: $showUserTypeSelectionView, savedUsername: $savedUsername, savedPassword: $savedPassword),
+                    destination: UserTypeSelectionView(
+                        isShowingCreateAccount: $showUserTypeSelectionView,
+                        savedUsername: $savedUsername,
+                        savedPassword: $savedPassword
+                    ),
                     isActive: $showUserTypeSelectionView
                 ) { EmptyView() }
             )
+            // Dismiss keyboard when tapping anywhere outside the fields
+            .contentShape(Rectangle())
+            .onTapGesture { focusedField = nil }
+            // Add a toolbar “Done” button above the keyboard as well
+            .toolbar {
+                ToolbarItemGroup(placement: .keyboard) {
+                    Spacer()
+                    Button("Done") { focusedField = nil }
+                }
+            }
         }
         .navigationBarHidden(true)
+    }
+}
+
+/// A reusable text field with a bright placeholder and consistent styling
+private struct StyledTextField: View {
+    @Binding var text: String
+    let placeholder: String
+    let isInvalid: Bool
+    let isSecure: Bool
+
+    var body: some View {
+        ZStack(alignment: .leading) {
+            // Custom placeholder with stronger contrast
+            if text.isEmpty {
+                Text(placeholder)
+                    .foregroundColor(Color.black.opacity(0.35))   // <— more visible
+                    .padding(.horizontal, 16)
+            }
+
+            Group {
+                if isSecure {
+                    SecureField("", text: $text)
+                } else {
+                    TextField("", text: $text)
+                        .textInputAutocapitalization(.never)
+                        .autocorrectionDisabled(true)
+                }
+            }
+            .foregroundColor(.black) // entered text color
+            .padding(12)
+        }
+        .background(
+            RoundedRectangle(cornerRadius: 10)
+                .fill(Color.white)
+                .shadow(radius: 2, y: 1)
+        )
+        .overlay(
+            RoundedRectangle(cornerRadius: 10)
+                .stroke(isInvalid ? Color.red : Color.clear, lineWidth: 1)
+        )
+        .padding(.horizontal)
     }
 }
