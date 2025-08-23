@@ -44,15 +44,22 @@ struct CalendarView: View {
                 ProgressView("Loading events…")
                     .padding(.top, 40)
             } else if let error {
-                Text(error).foregroundColor(.red).padding(.top, 40)
+                Text(error)
+                    .foregroundColor(.red)
+                    .padding(.top, 40)
             } else if filtered.isEmpty {
                 Text("No upcoming events.")
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.black.opacity(0.6))
                     .padding(.top, 40)
             } else {
                 List {
                     ForEach(grouped.keys.sorted(), id: \.self) { day in
-                        Section(header: Text(day.formatted(date: .abbreviated, time: .omitted))) {
+                        Section(
+                            header: Text(day.formatted(date: .abbreviated, time: .omitted))
+                                .font(.subheadline)
+                                .fontWeight(.semibold)
+                                .foregroundColor(.black) // visible on green/white bg
+                        ) {
                             ForEach(grouped[day]!) { event in
                                 NavigationLink(value: event) {
                                     EventRow(event: event)
@@ -74,7 +81,9 @@ struct CalendarView: View {
     private var filtered: [CampusEvent] {
         events.filter { e in
             (selectedCategory == nil || e.category == selectedCategory!)
-            && (search.isEmpty || e.title.localizedCaseInsensitiveContains(search) || e.location.localizedCaseInsensitiveContains(search))
+            && (search.isEmpty
+                || e.title.localizedCaseInsensitiveContains(search)
+                || e.location.localizedCaseInsensitiveContains(search))
         }
     }
 
@@ -84,26 +93,54 @@ struct CalendarView: View {
 
     private var filterBar: some View {
         VStack(spacing: 10) {
-            // search
-            HStack {
+            // SEARCH
+            HStack(spacing: 8) {
                 Image(systemName: "magnifyingglass")
-                TextField("Search events, locations…", text: $search)
-                    .textInputAutocapitalization(.never)
-                    .autocorrectionDisabled()
+                    .foregroundColor(.black.opacity(0.5))
+
+                TextField(
+                    "",
+                    text: $search,
+                    prompt: Text("Search events, locations…")
+                        .foregroundColor(.black.opacity(0.4)) // visible placeholder
+                )
+                .foregroundColor(.black) // typed text
+                .tint(.black)            // cursor color
+
+                if !search.isEmpty {
+                    Button {
+                        search = ""
+                    } label: {
+                        Image(systemName: "xmark.circle.fill")
+                            .foregroundColor(.black.opacity(0.35))
+                    }
+                    .buttonStyle(.plain)
+                }
             }
             .padding(12)
-            .background(RoundedRectangle(cornerRadius: 12).fill(Color.white).shadow(radius: 2, y: 1))
+            .background(
+                RoundedRectangle(cornerRadius: 12)
+                    .fill(Color.white)
+                    .shadow(radius: 2, y: 1)
+            )
 
-            // categories
+            // CATEGORIES
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 10) {
-                    CategoryChip(title: "All", icon: "rectangle.3.group", color: .black, isSelected: selectedCategory == nil) {
-                        selectedCategory = nil
-                    }
+                    CategoryChip(
+                        title: "All",
+                        icon: "rectangle.3.group",
+                        color: .black,
+                        isSelected: selectedCategory == nil
+                    ) { selectedCategory = nil }
+
                     ForEach(EventCategory.allCases) { cat in
-                        CategoryChip(title: cat.rawValue, icon: cat.icon, color: cat.color, isSelected: selectedCategory == cat) {
-                            selectedCategory = cat
-                        }
+                        CategoryChip(
+                            title: cat.rawValue,
+                            icon: cat.icon,
+                            color: cat.color,
+                            isSelected: selectedCategory == cat
+                        ) { selectedCategory = cat }
                     }
                 }
                 .padding(.vertical, 2)
@@ -157,18 +194,18 @@ private struct EventRow: View {
 
     var body: some View {
         HStack(spacing: 12) {
-            ZStack {
-                RoundedRectangle(cornerRadius: 12)
-                    .fill(event.category.color.opacity(0.15))
-                    .frame(width: 44, height: 44)
-                Image(systemName: event.category.icon)
-                    .foregroundColor(event.category.color)
-            }
+            ZstackIcon(category: event.category)
+
             VStack(alignment: .leading, spacing: 4) {
-                Text(event.title).font(.headline)
-                Text(event.location).font(.subheadline).foregroundColor(.secondary)
+                Text(event.title)
+                    .font(.headline)
+                    .foregroundColor(.white) // readable on dark list row bg
+                Text(event.location)
+                    .font(.subheadline)
+                    .foregroundColor(.white.opacity(0.8))
                 Text(event.date.formatted(date: .omitted, time: .shortened))
-                    .font(.caption).foregroundColor(.secondary)
+                    .font(.caption)
+                    .foregroundColor(.white.opacity(0.7))
             }
             Spacer()
         }
@@ -176,3 +213,15 @@ private struct EventRow: View {
     }
 }
 
+private struct ZstackIcon: View {
+    let category: EventCategory
+    var body: some View {
+        ZStack {
+            RoundedRectangle(cornerRadius: 12)
+                .fill(category.color.opacity(0.15))
+                .frame(width: 44, height: 44)
+            Image(systemName: category.icon)
+                .foregroundColor(category.color)
+        }
+    }
+}
