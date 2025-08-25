@@ -16,50 +16,42 @@ struct EventDetailView: View {
 
     var body: some View {
         VStack(spacing: 16) {
-            // Main info card
             ZStack {
                 RoundedRectangle(cornerRadius: 16)
                     .fill(Color.white)
                     .shadow(radius: 3, y: 1)
-
                 VStack(alignment: .leading, spacing: 10) {
                     HStack {
                         Image(systemName: event.category.icon)
                             .foregroundColor(event.category.color)
-
                         Text(event.title)
-                            .font(.title3).fontWeight(.semibold)
-                            .foregroundColor(.black)            // <-- explicit
+                            .font(.title3)
+                            .fontWeight(.semibold)
+                            .foregroundColor(.black)
                         Spacer()
                     }
-
                     HStack {
                         Image(systemName: "calendar")
-                            .foregroundColor(.gray)
                         Text(event.date.formatted(date: .complete, time: .shortened))
-                            .foregroundColor(.gray)            // <-- explicit
                     }
-
+                    .foregroundColor(.black.opacity(0.6))
                     HStack {
                         Image(systemName: "mappin.and.ellipse")
-                            .foregroundColor(.gray)
                         Text(event.location)
-                            .foregroundColor(.gray)            // <-- explicit
                     }
-
+                    .foregroundColor(.black.opacity(0.6))
                     Text(event.summary)
-                        .foregroundColor(.black)              // <-- explicit
+                        .foregroundColor(.black)
                         .padding(.top, 6)
                 }
                 .padding()
             }
             .padding(.horizontal)
 
-            // More info link
             if let link = event.link {
                 Link(destination: link) {
                     Label("More info", systemImage: "link")
-                        .foregroundColor(.blue)               // <-- explicit
+                        .foregroundColor(Color.blue)
                         .frame(maxWidth: .infinity)
                         .padding()
                         .background(
@@ -71,7 +63,6 @@ struct EventDetailView: View {
                 .padding(.horizontal)
             }
 
-            // Add to calendar button
             Button {
                 Task { await addToCalendar() }
             } label: {
@@ -106,8 +97,7 @@ struct EventDetailView: View {
 
     private func addToCalendar() async {
         let store = EKEventStore()
-        let status = EKEventStore.authorizationStatus(for: .event)
-        switch status {
+        switch EKEventStore.authorizationStatus(for: .event) {
         case .authorized:
             showingCalendarEditor = true
         case .notDetermined:
@@ -145,7 +135,6 @@ private struct EventEditView: UIViewControllerRepresentable {
     }
 
     func updateUIViewController(_ uiViewController: EKEventEditViewController, context: Context) {}
-
     func makeCoordinator() -> Coordinator { Coordinator() }
 
     final class Coordinator: NSObject, EKEventEditViewDelegate {

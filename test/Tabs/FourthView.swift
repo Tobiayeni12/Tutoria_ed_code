@@ -4,7 +4,6 @@
 //
 //  Created by Tobi Ayeni on 2025-05-08.
 //
-
 import SwiftUI
 
 struct CalendarView: View {
@@ -14,7 +13,8 @@ struct CalendarView: View {
     @State private var isLoading = true
     @State private var error: String?
 
-    private let service: EventServicing = MockEventService()
+    // ⬇️ use the live API-backed service instead of the mock
+    private let service: EventServicing = APIEventService()
 
     var body: some View {
         NavigationStack {
@@ -24,7 +24,10 @@ struct CalendarView: View {
                 Circle().scale(1.35).foregroundColor(.white)
 
                 content
+                    // tiny top spacer so the title has room on notched devices
                     .safeAreaInset(edge: .top) { Color.clear.frame(height: 0.1) }
+                    // leave room for your custom bottom tab bar
+                    .safeAreaInset(edge: .bottom) { Color.clear.frame(height: 88) }
             }
             .navigationTitle("Campus Events")
             .toolbarBackground(.visible, for: .navigationBar)
@@ -33,6 +36,7 @@ struct CalendarView: View {
         .task { await load() }
     }
 
+    // MARK: - Main content
     @ViewBuilder
     private var content: some View {
         VStack {
@@ -62,12 +66,13 @@ struct CalendarView: View {
                         ) {
                             ForEach(grouped[day]!) { event in
                                 NavigationLink(value: event) {
-                                    EventRow(event: event)
+                                    EventRow(event: event) // keeps your dark row + white text
                                 }
                             }
                         }
                     }
                 }
+                .refreshable { await load() }              // ⬅️ pull-to-refresh
                 .scrollContentBackground(.hidden)
                 .background(Color.clear)
                 .listStyle(.insetGrouped)
@@ -77,6 +82,8 @@ struct CalendarView: View {
             }
         }
     }
+
+    // MARK: - Filtering / Grouping
 
     private var filtered: [CampusEvent] {
         events.filter { e in
@@ -91,6 +98,8 @@ struct CalendarView: View {
         Dictionary(grouping: filtered) { Calendar.current.startOfDay(for: $0.date) }
     }
 
+    // MARK: - Filter bar (unchanged styling)
+
     private var filterBar: some View {
         VStack(spacing: 10) {
             // SEARCH
@@ -102,10 +111,10 @@ struct CalendarView: View {
                     "",
                     text: $search,
                     prompt: Text("Search events, locations…")
-                        .foregroundColor(.black.opacity(0.4)) // visible placeholder
+                        .foregroundColor(.black.opacity(0.4))
                 )
-                .foregroundColor(.black) // typed text
-                .tint(.black)            // cursor color
+                .foregroundColor(.black)
+                .tint(.black)
 
                 if !search.isEmpty {
                     Button {
@@ -148,16 +157,22 @@ struct CalendarView: View {
         }
     }
 
+    // MARK: - Loading
+
     private func load() async {
         isLoading = true
+        defer { isLoading = false }
         do {
-            events = try await service.fetchUpcoming()
+            let fetched = try await service.fetchUpcoming()
+            // keep your existing behavior
+            events = fetched
         } catch {
             self.error = "Couldn’t load events."
         }
-        isLoading = false
     }
 }
+
+// MARK: - Reused UI pieces (unchanged)
 
 private struct CategoryChip: View {
     let title: String
@@ -199,7 +214,7 @@ private struct EventRow: View {
             VStack(alignment: .leading, spacing: 4) {
                 Text(event.title)
                     .font(.headline)
-                    .foregroundColor(.white) // readable on dark list row bg
+                    .foregroundColor(.white) // your original look
                 Text(event.location)
                     .font(.subheadline)
                     .foregroundColor(.white.opacity(0.8))

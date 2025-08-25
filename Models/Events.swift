@@ -1,8 +1,5 @@
 //
 //  Events.swift
-//  test
-//
-//  Created by Mack Ndanina on 2025-08-22.
 //
 
 import SwiftUI
@@ -11,29 +8,51 @@ enum EventCategory: String, CaseIterable, Identifiable, Codable {
     case sports = "Sports"
     case deadline = "Deadline"
     case exam = "Exam"
-    case club = "Club"
+    case community = "Community"
+    case other = "Other"
 
     var id: String { rawValue }
+
     var icon: String {
         switch self {
-        case .sports: return "sportscourt"
-        case .deadline: return "calendar.badge.exclamationmark"
-        case .exam: return "pencil.and.list.clipboard"
-        case .club: return "person.3"
+        case .sports:     return "sportscourt"
+        case .deadline:   return "calendar.badge.exclamationmark"
+        case .exam:       return "pencil.and.list.clipboard"
+        case .community:  return "person.3"
+        case .other:      return "sparkles"
         }
     }
+
     var color: Color {
         switch self {
-        case .sports: return .green
-        case .deadline: return .red
-        case .exam: return .blue
-        case .club: return .purple
+        case .sports:     return .green
+        case .deadline:   return .red
+        case .exam:       return .blue
+        case .community:  return .purple
+        case .other:      return .gray
+        }
+    }
+
+    /// Map free-text coming from feeds into our enum.
+    init(fromString s: String) {
+        switch s.lowercased() {
+        case "sports", "sport", "game":
+            self = .sports
+        case "deadline", "due":
+            self = .deadline
+        case "exam", "midterm", "final":
+            self = .exam
+        case "club", "community", "event", "social", "volunteer":
+            self = .community
+        default:
+            self = .other
         }
     }
 }
 
 struct CampusEvent: Identifiable, Codable, Hashable {
-    let id: UUID
+    /// String id so we can accept server/generator ids & UUIDs
+    var id: String
     var title: String
     var date: Date
     var location: String
@@ -41,7 +60,15 @@ struct CampusEvent: Identifiable, Codable, Hashable {
     var summary: String
     var link: URL?
 
-    init(id: UUID = UUID(), title: String, date: Date, location: String, category: EventCategory, summary: String, link: URL? = nil) {
+    init(
+        id: String = UUID().uuidString,
+        title: String,
+        date: Date,
+        location: String,
+        category: EventCategory,
+        summary: String,
+        link: URL? = nil
+    ) {
         self.id = id
         self.title = title
         self.date = date
