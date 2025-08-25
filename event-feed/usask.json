@@ -1,0 +1,3274 @@
+[
+  {
+    "title": "Event",
+    "location": "",
+    "start": "2015-07-01T12:00:00",
+    "end": "2015-07-01T12:30:00",
+    "description": "Your Event Summary",
+    "url": ""
+  },
+  {
+    "title": "FULL: COVID-19 vaccine/booster clinic",
+    "location": "Student Wellness Centre",
+    "start": "2021-12-21T09:30:00",
+    "end": "2021-12-21T15:00:00",
+    "description": "The December 21 vaccine clinic is completely booked.",
+    "url": ""
+  },
+  {
+    "title": "Parents on Campus Daycare Panel",
+    "location": "",
+    "start": "2022-02-23T19:00:00",
+    "end": "2022-02-23T20:00:00",
+    "description": "An open forum/panel where the two university daycares will ans",
+    "url": ""
+  },
+  {
+    "title": "Stories of Cultural Healing Deadline",
+    "location": "",
+    "start": "2022-02-28",
+    "end": "2022-02-28",
+    "description": "Peer Health is organizing a Cultural Healing March Instagram c",
+    "url": ""
+  },
+  {
+    "title": "USASK: One World, Many Culture",
+    "location": "STM Auditorium and over Zoom",
+    "start": "2022-03-02",
+    "end": "2022-03-02",
+    "description": "A series of two panels on March 2nd and March 9th focusing on ",
+    "url": ""
+  },
+  {
+    "title": "Muslim Contributions to the World",
+    "location": "Health Science 1130",
+    "start": "2023-10-25T19:00:00",
+    "end": "2023-10-25T21:00:00",
+    "description": "This presentation is in recognition of National Islamic Herita",
+    "url": ""
+  },
+  {
+    "title": "International Student Campus Tour",
+    "location": "Tours will begin in the ISSAC Global Connections Students Lounge ",
+    "start": "2024-01-03T13:00:00",
+    "end": "2024-01-03T14:00:00",
+    "description": "Join a campus tour to learn more about USask!",
+    "url": ""
+  },
+  {
+    "title": "International Student Campus Tour",
+    "location": "Tours will begin in the ISSAC Global Connections Students Lounge ",
+    "start": "2024-01-04T13:00:00",
+    "end": "2024-01-04T14:00:00",
+    "description": "Join a campus tour to learn more about USask!",
+    "url": ""
+  },
+  {
+    "title": "International Student Campus Tour",
+    "location": "Tours will begin in the ISSAC Global Connections Students Lounge ",
+    "start": "2024-01-05T13:00:00",
+    "end": "2024-01-05T14:00:00",
+    "description": "Join a campus tour to learn more about USask!",
+    "url": ""
+  },
+  {
+    "title": "International Student Welcome and Orientation",
+    "location": "To be announced",
+    "start": "2024-01-02T15:30:00",
+    "end": "2024-01-02T16:30:00",
+    "description": "Are you a new international student? Meet the ISSAC team and l",
+    "url": ""
+  },
+  {
+    "title": "International Student Welcome Centre",
+    "location": "Global Connection Student Lounge in the International Student andStudy Abroad Centre, Room # 70.3, Place Riel.",
+    "start": "2024-01-02T08:00:00",
+    "end": "2024-01-02T16:30:00",
+    "description": "You've arrived in Canada &#45;&#45; now what? ISSAC is here ",
+    "url": ""
+  },
+  {
+    "title": "International Student Welcome Centre",
+    "location": "Global Connection Student Lounge in the International Student andStudy Abroad Centre, Room # 70.3, Place Riel.",
+    "start": "2024-01-03T08:00:00",
+    "end": "2024-01-03T16:30:00",
+    "description": "You've arrived in Canada &#45;&#45; now what? ISSAC is here ",
+    "url": ""
+  },
+  {
+    "title": "International Student Welcome Centre",
+    "location": "Global Connection Student Lounge in the International Student andStudy Abroad Centre, Room # 70.3, Place Riel.",
+    "start": "2024-01-04T08:00:00",
+    "end": "2024-01-04T16:30:00",
+    "description": "You've arrived in Canada &#45;&#45; now what? ISSAC is here ",
+    "url": ""
+  },
+  {
+    "title": "International Student Welcome Centre",
+    "location": "Global Connection Student Lounge in the International Student andStudy Abroad Centre, Room # 70.3, Place Riel.",
+    "start": "2024-01-05T08:00:00",
+    "end": "2024-01-05T16:30:00",
+    "description": "You've arrived in Canada &#45;&#45; now what? ISSAC is here ",
+    "url": ""
+  },
+  {
+    "title": "Community meal for students from 5-8 pm",
+    "location": "Usask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2023-12-21T17:00:00",
+    "end": "2023-12-21T20:00:00",
+    "description": "As you end this semester and look to create new friendships, ",
+    "url": ""
+  },
+  {
+    "title": "Winter Welcome Information Table",
+    "location": "Main floor, Place Riel Student Centre.",
+    "start": "2024-01-02T09:00:00",
+    "end": "2024-01-02T14:00:00",
+    "description": "New students, drop by the USask welcome table to ask question",
+    "url": ""
+  },
+  {
+    "title": "Winter Welcome Information Table",
+    "location": "Main floor, Place Riel Student Centre.",
+    "start": "2024-01-03T09:00:00",
+    "end": "2024-01-03T14:00:00",
+    "description": "New students, drop by the USask Welcome table to ask question",
+    "url": ""
+  },
+  {
+    "title": "Winter Welcome Information Table",
+    "location": "Main floor, Place Riel Student Centre.",
+    "start": "2024-01-04T09:00:00",
+    "end": "2024-01-04T14:00:00",
+    "description": "New students, drop by the USask Welcome table to ask question",
+    "url": ""
+  },
+  {
+    "title": "U-Prairie Challenge Winter Face-off",
+    "location": "Brandt Centre, Regina",
+    "start": "2024-01-07T15:00:00",
+    "end": "2024-01-07T21:30:00",
+    "description": "Come cheer on the Huskies as they work towards bringing home b",
+    "url": ""
+  },
+  {
+    "title": "Education Career Fair",
+    "location": "Education Gym",
+    "start": "2024-01-30T10:00:00",
+    "end": "2024-01-30T15:00:00",
+    "description": "Network with school boards and employers from local, provinci",
+    "url": ""
+  },
+  {
+    "title": "Group Drop-in Advising Session for International Students",
+    "location": "Online via Zoom",
+    "start": "2024-01-04T13:00:00",
+    "end": "2024-01-04T14:30:00",
+    "description": "This is a virtual group drop-in advising session with ISSAC’s ",
+    "url": ""
+  },
+  {
+    "title": "Group Drop-in Advising Session",
+    "location": "Online via Zoom",
+    "start": "2024-01-12T10:00:00",
+    "end": "2024-01-12T11:30:00",
+    "description": "This is a virtual group drop-in advising session with ISSAC’s ",
+    "url": ""
+  },
+  {
+    "title": "Group Drop-in Advising Session",
+    "location": "Online via Zoom",
+    "start": "2024-01-09T10:00:00",
+    "end": "2024-01-09T11:30:00",
+    "description": "This is a virtual group drop-in advising session with ISSAC’s ",
+    "url": ""
+  },
+  {
+    "title": "Group Drop-in Advising Session",
+    "location": "Online via Zoom",
+    "start": "2024-01-16T10:00:00",
+    "end": "2024-01-16T11:30:00",
+    "description": "This is a virtual group drop-in advising session with ISSAC’s ",
+    "url": ""
+  },
+  {
+    "title": "Group Drop-in Advising Session",
+    "location": "Online via Zoom",
+    "start": "2024-01-17T13:30:00",
+    "end": "2024-01-17T15:00:00",
+    "description": "This is a virtual group drop-in advising session with ISSAC’s ",
+    "url": ""
+  },
+  {
+    "title": "Cooking Made Simple: Nutrition By Addition",
+    "location": "Food and Nutrition Lab HLTH 2B64",
+    "start": "2024-01-17T12:30:00",
+    "end": "2024-01-17T14:30:00",
+    "description": "An innovative new pilot cooking class hosted by third year nut",
+    "url": ""
+  },
+  {
+    "title": "ADHD Support Group",
+    "location": "Usask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-01-24T15:00:00",
+    "end": "2024-01-24T16:00:00",
+    "description": "A peer-to-peer support group where students share their lived ",
+    "url": ""
+  },
+  {
+    "title": "safeTALK: Suicide alertness for everyone",
+    "location": "C280",
+    "start": "2023-11-07T09:00:00",
+    "end": "2023-11-07T12:00:00",
+    "description": "A 3 hour, in-person, training in suicide alertness. It helpsparticipants recognize a person with thoughts of suicide and connect themwith resources that can help them in choosing to live.",
+    "url": ""
+  },
+  {
+    "title": "safeTALK: Suicide alertness for everyone",
+    "location": "C280",
+    "start": "2024-03-12T13:00:00",
+    "end": "2024-03-12T15:30:00",
+    "description": "A 3 hour, in-person, training in suicide alertness. It helpsparticipants recognize a person with thoughts of suicide and connect themwith resources that can help them in choosing to live.",
+    "url": ""
+  },
+  {
+    "title": "safeTALK: Suicide alertness for everyone",
+    "location": "",
+    "start": "2024-04-23T09:00:00",
+    "end": "2024-04-23T16:30:00",
+    "description": "A 3 hour, in-person, training in suicide alertness. It helpsparticipants recognize a person with thoughts of suicide and connect themwith resources that can help them in choosing to live.",
+    "url": ""
+  },
+  {
+    "title": "safeTALK: Suicide alertness for everyone",
+    "location": "",
+    "start": "2024-05-22T13:00:00",
+    "end": "2024-05-22T16:30:00",
+    "description": "A 3 hour, in-person, training in suicide alertness. It helpsparticipants recognize a person with thoughts of suicide and connect themwith resources that can help them in choosing to live.",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-01-23T13:30:00",
+    "end": "2024-01-23T15:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-01-30T10:00:00",
+    "end": "2024-01-30T11:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Mental Health First Aid (MHFA)  VIRTUAL",
+    "location": "Provided following registration",
+    "start": "2024-03-20T09:00:00",
+    "end": "2024-03-20T16:00:00",
+    "description": "VIRTUAL WORKSHOP - The Mental Health Commission of Canada repo",
+    "url": ""
+  },
+  {
+    "title": "Employer Pop-up",
+    "location": "Engineering",
+    "start": "2024-01-26T11:00:00",
+    "end": "2024-01-26T15:00:00",
+    "description": "Employers want to meet you! Get connected in-person! Employer ",
+    "url": ""
+  },
+  {
+    "title": "Employer Pop-up",
+    "location": "AgBio Atrium",
+    "start": "2024-01-24T11:00:00",
+    "end": "2024-01-24T15:00:00",
+    "description": "Employers want to meet you! Get connected in-person! Employer ",
+    "url": ""
+  },
+  {
+    "title": "Employer Pop-up",
+    "location": "Engineering, Health Sciences, Arts Building",
+    "start": "2024-01-23T11:00:00",
+    "end": "2024-01-23T15:00:00",
+    "description": "Employers want to meet you! Get connected in-person! Employer ",
+    "url": ""
+  },
+  {
+    "title": "Employer Pop-up",
+    "location": "Arts Tunnel",
+    "start": "2024-01-22T11:00:00",
+    "end": "2024-01-22T15:00:00",
+    "description": "Employers want to meet you! Get connected in-person! Employer ",
+    "url": ""
+  },
+  {
+    "title": "Bringing In the Bystander",
+    "location": "Online via Zoom",
+    "start": "2024-02-07T13:00:00",
+    "end": "2024-02-07T16:00:00",
+    "description": "The program teaches bystanders how to safely intervene in inst",
+    "url": ""
+  },
+  {
+    "title": " Crochet and Knit Night",
+    "location": "Usask Community Centre, Marquis 104 (Across from the bookstore)",
+    "start": "2024-02-01T18:30:00",
+    "end": "2024-02-01T20:30:00",
+    "description": "De-stress with Peer Health’s Crochet and Knit Night! Bring you",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-02-06T10:00:00",
+    "end": "2024-02-06T11:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-02-08T10:00:00",
+    "end": "2024-02-08T11:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Social Insights: Racism and Mental Health",
+    "location": "Usask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-02-01T16:00:00",
+    "end": "2024-02-01T17:00:00",
+    "description": "Social insights is a four part series that dives into the diff",
+    "url": ""
+  },
+  {
+    "title": "Social Insights: Black Joy & Wellness and Black Love and Relations",
+    "location": "Usask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-02-16T16:00:00",
+    "end": "2024-02-16T17:00:00",
+    "description": "Social insights is a four part series that dives into the diff",
+    "url": ""
+  },
+  {
+    "title": "Social Insights: Black People in the Workforce",
+    "location": "Usask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-02-27T16:00:00",
+    "end": "2024-02-27T17:00:00",
+    "description": "Social insights is a four part series that dives into the diff",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-02-12T13:00:00",
+    "end": "2024-02-12T14:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Therapy Dogs - Paws your Stress",
+    "location": "Engineering Library Learning Commmons",
+    "start": "2024-03-13T13:00:00",
+    "end": "2024-03-13T14:00:00",
+    "description": "Therapy dogs are here, to bring you some cheers!",
+    "url": ""
+  },
+  {
+    "title": "Therapy Dogs - Paws your Stress",
+    "location": "Science Library(by the Dinosaurs)",
+    "start": "2024-03-28T14:00:00",
+    "end": "2024-03-28T15:00:00",
+    "description": "Therapy dogs are here, to bring you some cheers!",
+    "url": ""
+  },
+  {
+    "title": "Therapy Dogs - Paws your Stress",
+    "location": "Education and Music Library",
+    "start": "2024-02-29",
+    "end": "2024-02-29",
+    "description": "Therapy dogs are here, to bring you some cheers!",
+    "url": ""
+  },
+  {
+    "title": "Therapy Dogs - Paws your Stress",
+    "location": "Murray Library, Room 102",
+    "start": "2024-02-14T14:00:00",
+    "end": "2024-02-14T15:30:00",
+    "description": "Therapy dogs are here, to bring you some cheers!",
+    "url": ""
+  },
+  {
+    "title": "Therapy Dogs - Paws your Stress",
+    "location": "Leslie & Irene Dube Health Sciences Library, Room 1430",
+    "start": "2024-02-01T14:00:00",
+    "end": "2024-02-01T15:00:00",
+    "description": "Therapy dogs are here, to bring you some cheers!",
+    "url": ""
+  },
+  {
+    "title": "Therapy Dogs - Paws your Stress",
+    "location": " Education and Music Library",
+    "start": "2024-04-03T13:00:00",
+    "end": "2024-04-03T14:00:00",
+    "description": "Therapy dogs are here, to bring you some cheers!",
+    "url": ""
+  },
+  {
+    "title": "Therapy Dogs - Paws your Stress",
+    "location": "Leslie & Irene Dube Health Sciences Library, Room 1430",
+    "start": "2024-04-11T14:00:00",
+    "end": "2024-04-11T15:00:00",
+    "description": "Therapy dogs are here, to bring you some cheers!",
+    "url": ""
+  },
+  {
+    "title": "Therapy Dogs - Paws your Stress",
+    "location": "Murray Library, Rm 102",
+    "start": "2024-04-17T13:00:00",
+    "end": "2024-04-17T14:00:00",
+    "description": "Therapy dogs are here, to bring you some cheers!",
+    "url": ""
+  },
+  {
+    "title": "Roads to Wellness: Altered Books",
+    "location": "USask Community Centre, Marquis 104 (Across from the bookstore)",
+    "start": "2024-02-14T14:30:00",
+    "end": "2024-02-14T15:30:00",
+    "description": "Join us to work to repurpose an old book with collage, painti",
+    "url": ""
+  },
+  {
+    "title": "Roads to Wellness: Drumming in Group",
+    "location": "USask Community Centre, Marquis 104 (Across from the bookstore)",
+    "start": "2024-02-28T14:30:00",
+    "end": "2024-02-28T15:30:00",
+    "description": "This intro to drumming will teach basic beats to help individu",
+    "url": ""
+  },
+  {
+    "title": "Roads to Wellness: Neurographic Art",
+    "location": "USask Community Centre, Marquis 104 (Across from the bookstore)",
+    "start": "2024-02-07T14:30:00",
+    "end": "2024-02-07T15:30:00",
+    "description": "Come and experience Neurographic Art, a technique of drawing ",
+    "url": ""
+  },
+  {
+    "title": "Roads to Wellness: Drumming in Group",
+    "location": "USask Community Centre, Marquis 104 (Across from the bookstore)",
+    "start": "2024-03-20T14:30:00",
+    "end": "2024-03-20T15:30:00",
+    "description": "This intro to drumming will teach basic beats to help individu",
+    "url": ""
+  },
+  {
+    "title": "Roads to Wellness: Explore Textiles",
+    "location": "USask Community Centre, Marquis 104 (Across from the bookstore)",
+    "start": "2024-03-27T14:30:00",
+    "end": "2024-03-27T15:30:00",
+    "description": "Join us to explore a variety of textile materials and create s",
+    "url": ""
+  },
+  {
+    "title": "Roads to Wellness: Working with Clay",
+    "location": "USask Community Centre, Marquis 104 (Across from the bookstore)",
+    "start": "2024-03-13T14:30:00",
+    "end": "2024-03-13T15:30:00",
+    "description": "Working with oven bake polymer clay, participants explore cre",
+    "url": ""
+  },
+  {
+    "title": "Roads to Wellness: Yoga with Drawing",
+    "location": "USask Community Centre, Marquis 104 (Across from the bookstore)",
+    "start": "2024-03-06T14:30:00",
+    "end": "2024-03-06T15:30:00",
+    "description": "Come feel the benefits of a whole body drawing and movement ex",
+    "url": ""
+  },
+  {
+    "title": "A Mindful Moment",
+    "location": "Usask Community Centre (Marquis 104)",
+    "start": "2024-01-09T11:30:00",
+    "end": "2024-01-09T12:30:00",
+    "description": "A 15-minute guided discussion about a mindfulness topic follow",
+    "url": ""
+  },
+  {
+    "title": "Social Insights: The Adultification of Black Children",
+    "location": "Usask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-02-09T14:00:00",
+    "end": "2024-02-09T15:00:00",
+    "description": "Social insights is a four part series that dives into the diff",
+    "url": ""
+  },
+  {
+    "title": "Neurodivergent Come and Go Student Social",
+    "location": "Place Riel Room 323",
+    "start": "2024-02-06T16:00:00",
+    "end": "2024-02-06T19:00:00",
+    "description": "Neurodivergent Come and Go Social will be happening on Februar",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-02-26T15:00:00",
+    "end": "2024-02-26T16:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-02-28T14:00:00",
+    "end": "2024-02-28T15:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-03-01T10:30:00",
+    "end": "2024-03-01T11:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Global Village 2024",
+    "location": "Louis' Pub basement and Loft - Memorial Union Bldg, University o",
+    "start": "2024-03-13T17:00:00",
+    "end": "2024-03-13T21:00:00",
+    "description": "Celebrate diversity at USask",
+    "url": ""
+  },
+  {
+    "title": "Worldhoppers Book Club hosted by Cultural Wellness",
+    "location": "Place Riel Student Centre , Room 323",
+    "start": "2024-02-29",
+    "end": "2024-02-29",
+    "description": "In this book club, we will be reading books from around the w",
+    "url": ""
+  },
+  {
+    "title": "McCall MacBain Scholarship info session",
+    "location": "ARTS 153",
+    "start": "2024-02-28T14:30:00",
+    "end": "2024-02-28T15:30:00",
+    "description": "The McCall MacBain Scholarships are Canada’s first comprehensi",
+    "url": ""
+  },
+  {
+    "title": "Mental Health First Aid (MHFA)  VIRTUAL",
+    "location": "Provided following registration",
+    "start": "2024-02-28T09:00:00",
+    "end": "2024-02-28T16:00:00",
+    "description": "VIRTUAL WORKSHOP - The Mental Health Commission of Canada repo",
+    "url": ""
+  },
+  {
+    "title": "Scene Society",
+    "location": "Usask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-02-02T13:00:00",
+    "end": "2024-02-02T15:30:00",
+    "description": "Travel the world and explore new cultures through cinema! Ever",
+    "url": ""
+  },
+  {
+    "title": "Self-Care and Wellness Session",
+    "location": "Marquis 104",
+    "start": "2024-02-08T16:00:00",
+    "end": "2024-02-08T17:30:00",
+    "description": " Join Peer Health in this ~1.5-hour session to enjoy self-careactivities and crafts, ",
+    "url": ""
+  },
+  {
+    "title": "ADHD Support Group",
+    "location": "Place Riel Room 323",
+    "start": "2024-02-28T15:00:00",
+    "end": "2024-02-28T16:00:00",
+    "description": "A peer-to-peer support group where students share their lived ",
+    "url": ""
+  },
+  {
+    "title": "Tai Chi Practice Session",
+    "location": "USask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-03-07T14:00:00",
+    "end": "2024-03-07T15:00:00",
+    "description": "Learn the 24-form Tai chi to improve flexibility, balance, a",
+    "url": ""
+  },
+  {
+    "title": "Support Plan Workshop",
+    "location": "USask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-03-15T14:00:00",
+    "end": "2024-03-15T15:30:00",
+    "description": "This workshop is presented by the Healthy Mind group of Peer H",
+    "url": ""
+  },
+  {
+    "title": "Paint by Numbers Night",
+    "location": "USask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-03-06T17:00:00",
+    "end": "2024-03-06T19:00:00",
+    "description": "Looking for a fun way to spend an evening while also combatingloneliness? Come join us for a paint-by-number event where you can make n",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-03-05T12:30:00",
+    "end": "2024-03-05T13:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-03-07T10:00:00",
+    "end": "2024-03-07T11:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Narrative therapy group for international students",
+    "location": "Zoom",
+    "start": "2024-01-10T18:00:00",
+    "end": "2024-01-10T19:00:00",
+    "description": "A safe and culturally supportive environment for USask interna",
+    "url": ""
+  },
+  {
+    "title": "STI Testing Day",
+    "location": "Health Sciences E-wing",
+    "start": "2024-03-18T10:30:00",
+    "end": "2024-03-18T15:30:00",
+    "description": "Come get STI testing done on March 18th from 10:30-3:30 in Hea",
+    "url": ""
+  },
+  {
+    "title": "STI Testing Day",
+    "location": "Gordon Oakes Red Bear Student Centre",
+    "start": "2024-03-11T11:30:00",
+    "end": "2024-03-11T15:30:00",
+    "description": "Come get STI testing done on March 11th from 11:30-3:30 at Gor",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-03-12T10:00:00",
+    "end": "2024-03-12T11:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-03-13T12:30:00",
+    "end": "2024-03-13T13:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Employer Pop-up",
+    "location": "Engineering",
+    "start": "2024-03-13T11:00:00",
+    "end": "2024-03-13T15:00:00",
+    "description": "Employers want to meet you! Get connected in-person! Employer ",
+    "url": ""
+  },
+  {
+    "title": "Employer Pop-up",
+    "location": "Arts Tunnel",
+    "start": "2024-03-12T11:00:00",
+    "end": "2024-03-12T15:00:00",
+    "description": "Employers want to meet you! Get connected in-person! Employer ",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-03-20T13:00:00",
+    "end": "2024-03-20T14:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-03-20T13:00:00",
+    "end": "2024-03-20T14:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-03-21T10:00:00",
+    "end": "2024-03-21T11:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "ADHD Support Group",
+    "location": "Place Riel Room 323",
+    "start": "2024-03-27T15:00:00",
+    "end": "2024-03-27T16:00:00",
+    "description": "Looking for a peer-to-peer support group for ADHD? Join us on ",
+    "url": ""
+  },
+  {
+    "title": "Students with Diabetes Support Group",
+    "location": "USask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-03-15T13:30:00",
+    "end": "2024-03-15T14:30:00",
+    "description": "Are you a student living with Diabetes? Would you like to conn",
+    "url": ""
+  },
+  {
+    "title": "Wellness Workshop",
+    "location": "USask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-03-25T12:00:00",
+    "end": "2024-03-25T14:00:00",
+    "description": "Come to peer health on March 25th from 12 to 2 p.m. for a well",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-03-25T11:30:00",
+    "end": "2024-03-25T12:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-03-28T10:00:00",
+    "end": "2024-03-28T11:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Drop In Anxiety Group",
+    "location": "Place Riel Room 323",
+    "start": "2024-02-29T12:00:00",
+    "end": "2024-02-29T13:00:00",
+    "description": "This education group is available for students interested in l",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-04-02T10:00:00",
+    "end": "2024-04-02T11:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Experience the Joy of Breaking Fast Together!",
+    "location": "",
+    "start": "2024-04-08T19:30:00",
+    "end": "2024-04-08T22:00:00",
+    "description": "Join Building Bridges for an Iftar celebration.",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-04-10T11:30:00",
+    "end": "2024-04-10T12:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-04-12T10:00:00",
+    "end": "2024-04-12T11:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "ADHD Support Group",
+    "location": "Place Riel Room 323",
+    "start": "2024-04-10T16:00:00",
+    "end": "2024-04-10T17:00:00",
+    "description": "This ADHD Support group meeting will focus on ADHD and effecti",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-04-17T10:00:00",
+    "end": "2024-04-17T23:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-04-19T14:30:00",
+    "end": "2024-04-19T16:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Housing and Expense",
+    "location": "Online via Zoom",
+    "start": "2024-05-01T13:00:00",
+    "end": "2024-05-01T14:30:00",
+    "description": "This comprehensive session covers information about your housi",
+    "url": ""
+  },
+  {
+    "title": "Preparing for your first days in Saskatoon",
+    "location": "Online via Zoom",
+    "start": "2024-04-29T10:00:00",
+    "end": "2024-04-29T11:30:00",
+    "description": "You have arrived in Saskatoon. Now what? This session will foc",
+    "url": ""
+  },
+  {
+    "title": "New International Student Spring/Summer Term Welcome",
+    "location": "Online via Zoom",
+    "start": "2024-04-25T13:00:00",
+    "end": "2024-04-25T14:30:00",
+    "description": "All new international students starting at the University of S",
+    "url": ""
+  },
+  {
+    "title": "International Student Banking 101",
+    "location": "Online via Zoom",
+    "start": "2024-04-30T13:00:00",
+    "end": "2024-04-30T14:30:00",
+    "description": "This workshop, hosted in partnership with the USask branch ofthe Royal Bank of Canda (RBC), will help you build financial literacy an",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-04-23T10:00:00",
+    "end": "2024-04-23T11:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-04-24T13:30:00",
+    "end": "2024-04-24T15:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-04-29T11:30:00",
+    "end": "2024-04-29T13:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-05-03",
+    "end": "2024-05-03",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-05-08T13:30:00",
+    "end": "2024-05-08T15:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-05-10T10:00:00",
+    "end": "2024-05-10T11:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Physical Therapy Career Fair",
+    "location": "GD50 Health Sciences",
+    "start": "2024-05-15T16:00:00",
+    "end": "2024-05-15T19:00:00",
+    "description": "This is an excellent opportunity for students and alumni pursu",
+    "url": ""
+  },
+  {
+    "title": "Murray library closed",
+    "location": "Murray Library",
+    "start": "2024-05-11T06:00:00",
+    "end": "2024-05-12T23:30:00",
+    "description": "The Murray Library will be closed on Saturday, May 11 and Sun",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-05-13T13:30:00",
+    "end": "2024-05-13T15:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-05-14T09:30:00",
+    "end": "2024-05-14T11:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-05-21T10:00:00",
+    "end": "2024-05-21T11:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-05-22T13:30:00",
+    "end": "2024-05-22T15:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-05-28T10:00:00",
+    "end": "2024-05-28T11:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-05-29T13:30:00",
+    "end": "2024-05-29T15:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Nature Therapy Walk - Meewasin Trail",
+    "location": "",
+    "start": "2024-06-05T13:30:00",
+    "end": "2024-06-05T16:30:00",
+    "description": "Looking for a way to slow down from academic and life stressor",
+    "url": ""
+  },
+  {
+    "title": "Nature Therapy Walk - Meewasin Trail",
+    "location": "",
+    "start": "2024-06-21T13:30:00",
+    "end": "2024-06-21T16:30:00",
+    "description": "Looking for a way to slow down from academic and life stressor",
+    "url": ""
+  },
+  {
+    "title": "Nature Therapy Walk - Boffins Public Gardens",
+    "location": "",
+    "start": "2024-06-14T13:30:00",
+    "end": "2024-06-14T16:30:00",
+    "description": "Looking for a way to slow down from academic and life stressor",
+    "url": ""
+  },
+  {
+    "title": "Pride Flag Raising Ceremony",
+    "location": "Nobel Plaza (in front of the Peter MacKinnon Building)",
+    "start": "2024-05-31T13:00:00",
+    "end": "2024-05-31T14:00:00",
+    "description": "Everyone is invited to attend the Pride Flag Raising Ceremony ",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-06-13T09:00:00",
+    "end": "2024-06-13T10:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-06-10T14:30:00",
+    "end": "2024-06-10T16:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Read & Resist Book Club",
+    "location": "USask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-06-23T16:00:00",
+    "end": "2024-06-23T17:00:00",
+    "description": "Join our new book club, where we aim to learn, grow, and ig",
+    "url": ""
+  },
+  {
+    "title": "Saskatoon Pride Parade",
+    "location": "Downtown Saskatoon",
+    "start": "2024-06-22T12:00:00",
+    "end": "2024-06-22T14:00:00",
+    "description": "Each year, the University of Saskatchewan has continued to en",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-06-20T09:30:00",
+    "end": "2024-06-20T11:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-06-21T13:30:00",
+    "end": "2024-06-21T15:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-07-03T09:30:00",
+    "end": "2024-07-03T11:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2024-07-05T09:30:00",
+    "end": "2024-07-05T11:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Games Hangout",
+    "location": "USask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-07-11T16:00:00",
+    "end": "2024-07-11T18:00:00",
+    "description": "Looking for something to do after class? Come join us at the U",
+    "url": ""
+  },
+  {
+    "title": "Cooking Class",
+    "location": "Place Riel Room 323",
+    "start": "2024-07-12T17:00:00",
+    "end": "2024-07-12T18:00:00",
+    "description": "Come join us this Friday to make Savory and Sweet Fresh Rolls!We will teach you how to make this delicious meal.",
+    "url": ""
+  },
+  {
+    "title": "Inquiring Minds – Post Secondary",
+    "location": "St. Thomas More College - Room 260",
+    "start": "2024-09-03T13:00:00",
+    "end": "2024-09-03T16:00:00",
+    "description": "The Inquiring Mind – Post Secondary is an evidence-based progr",
+    "url": ""
+  },
+  {
+    "title": "Campus Expo",
+    "location": "The Bowl",
+    "start": "2024-09-03T13:00:00",
+    "end": "2024-09-03T15:00:00",
+    "description": "Learn what USask has to offer.",
+    "url": ""
+  },
+  {
+    "title": "Welcome Centre for international students",
+    "location": "Room 80, Place Riel Student Centre",
+    "start": "2024-08-29T10:00:00",
+    "end": "2024-09-06T15:00:00",
+    "description": "You've arrived in Canada &#45;&#45; now what? ISSAC is here ",
+    "url": ""
+  },
+  {
+    "title": "Shopping trip for newly-arrived international students",
+    "location": "Room 80, Place Riel Student Centre",
+    "start": "2024-09-06T14:00:00",
+    "end": "2024-09-06T17:00:00",
+    "description": "Join the International Student and Study Abroad Centre for a s",
+    "url": ""
+  },
+  {
+    "title": "International Student Orientation and Welcome Social",
+    "location": "Louis' Loft",
+    "start": "2024-09-11T17:00:00",
+    "end": "2024-09-11T20:00:00",
+    "description": "Being an international student at USask doesn't mean just stud",
+    "url": ""
+  },
+  {
+    "title": "ISSAC goes to the Huskies Homecoming Football Game",
+    "location": "Room 80, Place Riel Student Centre",
+    "start": "2024-09-13T18:00:00",
+    "end": "2024-09-13T22:00:00",
+    "description": "We will be cheering for the USask Huskies at their Homecoming ",
+    "url": ""
+  },
+  {
+    "title": "Trip to Wanuskewin for International Graduate Students",
+    "location": "Room 80, Place Riel Student Centre",
+    "start": "2024-08-26T08:30:00",
+    "end": "2024-08-26T15:30:00",
+    "description": "Join the International Student and Study Abroad Centre (ISSAC)and the Graduate Students' Association (GSA) in visiting the Wanuskewin I",
+    "url": ""
+  },
+  {
+    "title": "Preparing for your first days in Canada",
+    "location": "Online",
+    "start": "2024-08-23T13:00:00",
+    "end": "2024-08-23T14:30:00",
+    "description": "You have arrived in Saskatoon. Now what? This session will foc",
+    "url": ""
+  },
+  {
+    "title": "Career Services Open House",
+    "location": "Career Services Office",
+    "start": "2024-09-04T12:00:00",
+    "end": "2024-09-04T14:00:00",
+    "description": "Join us for a two-day Open House to explore how our team is pr",
+    "url": ""
+  },
+  {
+    "title": "USask housing and off-campus housing",
+    "location": "Online",
+    "start": "2024-08-07T09:00:00",
+    "end": "2024-08-07T10:30:00",
+    "description": "This webinar will provide information about USask Residences o",
+    "url": ""
+  },
+  {
+    "title": "Crossing the border and packing tips",
+    "location": "Online",
+    "start": "2024-08-06T08:30:00",
+    "end": "2024-08-06T09:30:00",
+    "description": "The anticipation of living in a new country as an internationa",
+    "url": ""
+  },
+  {
+    "title": "International student banking 101 ",
+    "location": "Online",
+    "start": "2024-08-12T09:00:00",
+    "end": "2024-08-12T10:30:00",
+    "description": "This workshop, hosted in partnership with the USask branch ofthe Royal Bank of Canda (RBC), will help you build financial literacy an",
+    "url": ""
+  },
+  {
+    "title": "Let’s talk immigration",
+    "location": "Online",
+    "start": "2024-08-26T10:00:00",
+    "end": "2024-08-26T11:30:00",
+    "description": "Do you have questions about your Canadian immigration document",
+    "url": ""
+  },
+  {
+    "title": "What if I cannot arrive on time to start my USask program?",
+    "location": "Online",
+    "start": "2024-08-09T09:00:00",
+    "end": "2024-08-09T22:30:00",
+    "description": "If you are an international student admitted to USask and haveapplied for your study permit but there are delays and you cannot arrive ",
+    "url": ""
+  },
+  {
+    "title": "IT support and learning Canvas ",
+    "location": "Online",
+    "start": "2024-08-21T09:00:00",
+    "end": "2024-08-21T10:30:00",
+    "description": "Learn about PAWS, USask email, Canvas, and how you can get ",
+    "url": ""
+  },
+  {
+    "title": "Classroom and academic expectations",
+    "location": "Online",
+    "start": "2024-08-27T15:00:00",
+    "end": "2024-08-27T16:30:00",
+    "description": "Students have academic responsibilities as soon as courses sta",
+    "url": ""
+  },
+  {
+    "title": "Holistic Approach to Wellness - Making Crystal Bracelets",
+    "location": "Place Riel Room 323",
+    "start": "2024-08-06T17:00:00",
+    "end": "2024-08-06T18:00:00",
+    "description": "Come learn more about holistic wellness by making Crystal Bead",
+    "url": ""
+  },
+  {
+    "title": "Career Services Open House",
+    "location": "Career Services Office",
+    "start": "2024-09-05T12:00:00",
+    "end": "2024-09-05T14:00:00",
+    "description": "Join us for a two-day Open House to explore how our team is pr",
+    "url": ""
+  },
+  {
+    "title": "TA Success Days",
+    "location": "Saskatoon campus",
+    "start": "2024-09-10",
+    "end": "2024-09-12",
+    "description": "TA Success Days is three-day in-person event that offers a sel",
+    "url": ""
+  },
+  {
+    "title": "What if I Cannot Arrive on Time to Start my USask Program?",
+    "location": "Online",
+    "start": "2024-08-29T10:00:00",
+    "end": "2024-08-29T11:30:00",
+    "description": "You are an international student admitted to USask. You applie",
+    "url": ""
+  },
+  {
+    "title": "Social Insurance Number (SIN) Clinics",
+    "location": "ISSAC Lounge",
+    "start": "2024-09-06T09:00:00",
+    "end": "2024-09-06T16:00:00",
+    "description": "In order to work in Canada on your study permit, internationa",
+    "url": ""
+  },
+  {
+    "title": "Social Insurance Number (SIN) Clinics",
+    "location": "ISSAC Lounge",
+    "start": "2024-08-30T09:00:00",
+    "end": "2024-08-30T16:00:00",
+    "description": "In order to work in Canada on your study permit, internationa",
+    "url": ""
+  },
+  {
+    "title": "VIRTUAL Incoming exchange information session",
+    "location": "Online",
+    "start": "2024-08-29T10:30:00",
+    "end": "2024-08-29T11:30:00",
+    "description": "Please join us for a virtual presentation about your exchange ",
+    "url": ""
+  },
+  {
+    "title": "IN PERSON Incoming exchange information session",
+    "location": "Arts Building Room 102",
+    "start": "2024-09-05T10:30:00",
+    "end": "2024-09-05T11:30:00",
+    "description": "Please join us for a virtual presentation about your exchange ",
+    "url": ""
+  },
+  {
+    "title": "AES Exam Centre Open House",
+    "location": "Williams Building",
+    "start": "2024-09-19T11:00:00",
+    "end": "2024-09-19T14:00:00",
+    "description": "The Access and Equity Services Exam Program has moved to a lar",
+    "url": ""
+  },
+  {
+    "title": "Careers Day",
+    "location": "PAC Gymnasium",
+    "start": "2024-09-24T10:00:00",
+    "end": "2024-09-24T15:00:00",
+    "description": "Careers Day gives USask students and alumni the opportunity toconnect with various organizations to discuss employment, volunteering,and graduate and professional school opportunities. Whether you're seekin",
+    "url": ""
+  },
+  {
+    "title": "New International Student Campus Tour",
+    "location": "Tours will begin in the ISSAC Global Connections Students Lounge ",
+    "start": "2024-09-03T14:30:00",
+    "end": "2024-09-03T15:15:00",
+    "description": "New to campus and wondering where things are located? Attend a",
+    "url": ""
+  },
+  {
+    "title": "New International Student Campus Tour",
+    "location": "Tours will begin in the ISSAC Global Connections Students Lounge ",
+    "start": "2024-09-04T11:30:00",
+    "end": "2024-09-04T12:15:00",
+    "description": "New to campus and wondering where things are located? Attend a",
+    "url": ""
+  },
+  {
+    "title": "New International Student Campus Tour",
+    "location": "Tours will begin in the ISSAC Global Connections Students Lounge ",
+    "start": "2024-09-05T14:30:00",
+    "end": "2024-09-05T15:15:00",
+    "description": "New to campus and wondering where things are located? Attend a",
+    "url": ""
+  },
+  {
+    "title": "Learn about your benefits with the Canada Revenue Agency",
+    "location": "ISSAC Training Room (room 70.4 in Lower Place Riel)",
+    "start": "2024-09-05T15:00:00",
+    "end": "2024-09-05T16:00:00",
+    "description": "Learn from CVITP and Benefits Outreach Officers from the Canad",
+    "url": ""
+  },
+  {
+    "title": "Learn about your benefits with the Canada Revenue Agency",
+    "location": "ISSAC Training Room (room 70.4 in Lower Place Riel)",
+    "start": "2024-09-06T13:00:00",
+    "end": "2024-09-06T14:00:00",
+    "description": "Learn from CVITP and Benefits Outreach Officers from the Canad",
+    "url": ""
+  },
+  {
+    "title": "Food and body acceptance group registration deadline",
+    "location": "",
+    "start": "2024-10-14",
+    "end": "2024-10-14",
+    "description": "Learn to improve your relationship with food, your body, andyourself in safe, supportive and inclusive environment. Sessions will beheld on Thursdays from 2-3:30 pm starting on October 24. Sign up by Octob",
+    "url": ""
+  },
+  {
+    "title": "Good Breakfast",
+    "location": "USask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-09-10T08:00:00",
+    "end": "2024-09-10T09:30:00",
+    "description": "Join us for breakfast every Tuesday, Wednesday, and Thursday",
+    "url": ""
+  },
+  {
+    "title": "A Mindful Moment",
+    "location": "USask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-09-18T12:30:00",
+    "end": "2024-09-18T13:00:00",
+    "description": "A 15-minute guided discussion about a mindfulness topic follow",
+    "url": ""
+  },
+  {
+    "title": "Roads to Wellness - The Art of Metaphors: A Mind-Body Connection",
+    "location": "USask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-09-11T14:30:00",
+    "end": "2024-09-11T16:30:00",
+    "description": "Come explore “The Art of Mindfulness and Metaphors: Mind-Body ",
+    "url": ""
+  },
+  {
+    "title": " Naloxone Education and Training for Students/Staff at USASK",
+    "location": "USask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-09-18T12:00:00",
+    "end": "2024-09-18T13:00:00",
+    "description": "Naloxone education and training is being offered to decrease t",
+    "url": ""
+  },
+  {
+    "title": "Bringing In the Bystander",
+    "location": "Online via Zoom",
+    "start": "2024-10-10T13:00:00",
+    "end": "2024-10-10T16:00:00",
+    "description": "The program teaches bystanders how to safely intervene in inst",
+    "url": ""
+  },
+  {
+    "title": "Roads to Wellness - \"Centered in the Peace and Power of Yoga\"",
+    "location": "USask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-09-18T14:30:00",
+    "end": "2024-09-18T16:30:00",
+    "description": "Come explore the practice of yoga. ‘Yoga’ means wholeness/harm",
+    "url": ""
+  },
+  {
+    "title": "Nature Therapy Walk – Meewasin Trail",
+    "location": "Meet at Diefenbaker Centre",
+    "start": "2024-09-27T13:30:00",
+    "end": "2024-09-27T16:30:00",
+    "description": "Looking for a way to slow down from academic and life stressor",
+    "url": ""
+  },
+  {
+    "title": "Tunnels Tours",
+    "location": "Meet at the Usask Community Centre, Marquis 104",
+    "start": "2024-09-17T10:00:00",
+    "end": "2024-09-17T11:00:00",
+    "description": "A tour of the tunnels that connect buildings on campus for newand returning students who are looking to stay warm while walking to clas",
+    "url": ""
+  },
+  {
+    "title": "Tunnels Tours",
+    "location": "Meet at the Usask Community Centre, Marquis 104",
+    "start": "2024-09-18T16:00:00",
+    "end": "2024-09-18T17:00:00",
+    "description": "A tour of the tunnels that connect buildings on campus for newand returning students who are looking to stay warm while walking to clas",
+    "url": ""
+  },
+  {
+    "title": "Narrative Therapy Group for International students",
+    "location": "Room 80, Place Riel Student Centre",
+    "start": "2024-10-30T14:00:00",
+    "end": "2024-10-30T15:30:00",
+    "description": "A safe and culturally supportive environment for USask interna",
+    "url": ""
+  },
+  {
+    "title": "Narrative Therapy Group for International students",
+    "location": "Room 80, Place Riel Student Centre",
+    "start": "2024-10-16T14:00:00",
+    "end": "2024-10-16T15:30:00",
+    "description": "A safe and culturally supportive environment for USask interna",
+    "url": ""
+  },
+  {
+    "title": "Narrative Therapy Group for International students",
+    "location": "Room 80, Place Riel Student Centre",
+    "start": "2024-10-23T14:00:00",
+    "end": "2024-10-23T15:30:00",
+    "description": "A safe and culturally supportive environment for USask interna",
+    "url": ""
+  },
+  {
+    "title": "Narrative Therapy Group for International students",
+    "location": "Room 80, Place Riel Student Centre",
+    "start": "2024-11-06T14:00:00",
+    "end": "2024-11-06T15:30:00",
+    "description": "A safe and culturally supportive environment for USask interna",
+    "url": ""
+  },
+  {
+    "title": "Narrative Therapy Group for International students",
+    "location": "Room 80, Place Riel Student Centre",
+    "start": "2024-11-13T14:00:00",
+    "end": "2024-11-13T15:30:00",
+    "description": "A safe and culturally supportive environment for USask interna",
+    "url": ""
+  },
+  {
+    "title": "Narrative Therapy Group for International students",
+    "location": "Room 80, Place Riel Student Centre",
+    "start": "2024-11-20T14:00:00",
+    "end": "2024-11-20T15:30:00",
+    "description": "A safe and culturally supportive environment for USask interna",
+    "url": ""
+  },
+  {
+    "title": "Narrative Therapy Group for International students",
+    "location": "Room 80, Place Riel Student Centre",
+    "start": "2024-11-27T14:00:00",
+    "end": "2024-11-27T15:30:00",
+    "description": "A safe and culturally supportive environment for USask interna",
+    "url": ""
+  },
+  {
+    "title": "Narrative Therapy Group for International students",
+    "location": "Room 80, Place Riel Student Centre",
+    "start": "2024-12-04T14:00:00",
+    "end": "2024-12-04T15:30:00",
+    "description": "A safe and culturally supportive environment for USask interna",
+    "url": ""
+  },
+  {
+    "title": "Roads to Wellness, Drumming",
+    "location": "Usask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-09-25T14:15:00",
+    "end": "2024-09-25T16:15:00",
+    "description": "Meghan Bowman Group Drumming; Using the various drums and per",
+    "url": ""
+  },
+  {
+    "title": "Caring Cards for Campus",
+    "location": "USask Community Centre, Marquis 104 (Across from the Bookstore)",
+    "start": "2024-10-01T11:00:00",
+    "end": "2024-10-01T12:00:00",
+    "description": "Caring Cards for Campus (CCC) is a pilot project through Peer ",
+    "url": ""
+  },
+  {
+    "title": "ChangeWell, if nothing changes nothing changes.",
+    "location": "Student Wellness Centre - 3rd floor rm 323",
+    "start": "2025-01-08T13:15:00",
+    "end": "2025-01-08T15:15:00",
+    "description": "ChangeWell - A values and strength-based 6 week program that w",
+    "url": ""
+  },
+  {
+    "title": "Thrive and Shine",
+    "location": "Gordon Oakes Red Bear Centre",
+    "start": "2024-10-23T11:00:00",
+    "end": "2024-10-23T13:30:00",
+    "description": "Thrive and Shine Mental Health Tabling Event.",
+    "url": ""
+  },
+  {
+    "title": "Wellness in a Jar",
+    "location": "Prince Albert Campus. October 29 and November 5 & 12 – Classroom ",
+    "start": "2024-10-29T12:00:00",
+    "end": "2024-10-29T13:00:00",
+    "description": "Wellness in a Jar Workshop provides connection and nurtures co",
+    "url": ""
+  },
+  {
+    "title": "Vaccine Clinic",
+    "location": "USask Community Centre, Marquis 104",
+    "start": "2024-11-05T09:30:00",
+    "end": "2024-11-05T15:30:00",
+    "description": "Keep yourself and our community healthy by getting your flu sh",
+    "url": ""
+  },
+  {
+    "title": "Cultural Creature Pumkin Carving",
+    "location": "Usask Community Centre (Marquis 104)",
+    "start": "2024-10-25T17:30:00",
+    "end": "2024-10-25T18:30:00",
+    "description": "Join Peer Health for a night of pumpkin carving fun! Where we ",
+    "url": ""
+  },
+  {
+    "title": "Green Table Talk: Life Changes",
+    "location": "3rd floor Place Riel, room 323",
+    "start": "2024-11-05T12:30:00",
+    "end": "2024-11-05T13:30:00",
+    "description": "Join us for a cozy afternoon of tea and conversations. We'll b",
+    "url": ""
+  },
+  {
+    "title": "PA Campus Open Saturdays",
+    "location": "Prince Albert Campus",
+    "start": "2024-11-09T10:00:00",
+    "end": "2024-11-09T15:00:00",
+    "description": "PA Campus is open on Saturdays from 10:00 am to 3:00 pm",
+    "url": ""
+  },
+  {
+    "title": "PA Campus Open Saturdays",
+    "location": "Prince Albert Campus",
+    "start": "2024-11-30T10:00:00",
+    "end": "2024-11-30T15:00:00",
+    "description": "PA Campus is open on Saturdays from 10:00 am to 3:00 pm",
+    "url": ""
+  },
+  {
+    "title": "PA Campus Open Saturdays",
+    "location": "Prince Albert Campus",
+    "start": "2024-11-23T10:00:00",
+    "end": "2024-11-23T15:00:00",
+    "description": "PA Campus is open on Saturdays from 10:00 am to 3:00 pm",
+    "url": ""
+  },
+  {
+    "title": "PA Campus Open Saturdays",
+    "location": "Prince Albert Campus",
+    "start": "2024-11-16T10:00:00",
+    "end": "2024-11-16T15:00:00",
+    "description": "PA Campus is open on Saturdays from 10:00 am to 3:00 pm",
+    "url": ""
+  },
+  {
+    "title": "PA Campus Open Saturdays",
+    "location": "Prince Albert Campus",
+    "start": "2024-12-14T10:00:00",
+    "end": "2024-12-14T15:00:00",
+    "description": "Last Saturday that PA Campus is open on Saturdays from 10:00 a",
+    "url": ""
+  },
+  {
+    "title": "PA Campus Open Saturdays",
+    "location": "Prince Albert Campus",
+    "start": "2024-12-07T10:00:00",
+    "end": "2024-12-07T15:00:00",
+    "description": "PA Campus is open on Saturdays from 10:00 am to 3:00 pm",
+    "url": ""
+  },
+  {
+    "title": "PA Campus Open Saturdays",
+    "location": "Prince Albert Campus",
+    "start": "2024-11-02T10:00:00",
+    "end": "2024-11-02T15:00:00",
+    "description": "PA Campus is open on Saturdays from 10:00 am to 3:00 pm",
+    "url": ""
+  },
+  {
+    "title": "Grandmother Full Moon Ceremony (PA Campus)",
+    "location": "320 -11th Street Northwest, Prince Albert",
+    "start": "2024-11-15T18:30:00",
+    "end": "2024-11-15T20:30:00",
+    "description": "Join Prince Albert students and staff for this ceremony",
+    "url": ""
+  },
+  {
+    "title": "Immigrant Mental Health Panel",
+    "location": "ISSAC Training Room",
+    "start": "2024-11-19T17:00:00",
+    "end": "2024-11-19T18:30:00",
+    "description": "Are you an immigrant student struggling with your mental healt",
+    "url": ""
+  },
+  {
+    "title": "Fall Term Student Walking Group",
+    "location": "Meet at the Usask Community Centre, Marquis 104",
+    "start": "2024-09-17T12:30:00",
+    "end": "2024-09-17T13:00:00",
+    "description": "Join us for a 30-min walking group around campus on Tuesdays a",
+    "url": ""
+  },
+  {
+    "title": "Holiday Student Party (PA Campus)",
+    "location": "Student Commons",
+    "start": "2024-12-03T11:00:00",
+    "end": "2024-12-03T14:00:00",
+    "description": "Enjoy some holiday fun and food with other PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Vaccine Clinic (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2024-11-19T10:00:00",
+    "end": "2024-11-19T15:00:00",
+    "description": "Get your Flu shot and COVID booster",
+    "url": ""
+  },
+  {
+    "title": "Permanent Residency Information Session with an Immigration Lawyer",
+    "location": "Online via Zoom",
+    "start": "2024-12-02T14:00:00",
+    "end": "2024-12-02T16:00:00",
+    "description": "Join an information session on permanent residency hosted by D",
+    "url": ""
+  },
+  {
+    "title": "A Holistic Approach to Student Wellness Creating Crystal Bracelets",
+    "location": "Usask Community Centre (Marquis 104)",
+    "start": "2024-11-19T17:00:00",
+    "end": "2024-11-19T18:00:00",
+    "description": "This workshop is an interactive approach to fostering a holist",
+    "url": ""
+  },
+  {
+    "title": "ADHD/Neurodivergent Support Group",
+    "location": "Place Riel 323",
+    "start": "2024-11-27T15:00:00",
+    "end": "2024-11-27T16:00:00",
+    "description": "Peer-to-peer support for students with invisible disabilities.Students curious about invisible disabilities are welcome to join.",
+    "url": ""
+  },
+  {
+    "title": "Preparing For Your First Days in Canada",
+    "location": "Online via Zoom",
+    "start": "2024-12-16T09:00:00",
+    "end": "2024-12-16T10:00:00",
+    "description": "You have arrived in Saskatoon. Now what? This session will foc",
+    "url": ""
+  },
+  {
+    "title": "Housing and Finance",
+    "location": "Online via Zoom",
+    "start": "2024-11-28T09:00:00",
+    "end": "2024-11-28T10:00:00",
+    "description": "This comprehensive session covers information about your housi",
+    "url": ""
+  },
+  {
+    "title": "One Last Call: A Friendship in Recovery, A Beyond the Buzz Lunch ",
+    "location": "",
+    "start": "2024-11-25T12:00:00",
+    "end": "2024-11-25T13:00:00",
+    "description": "In this Lunch and Learn session Mick and Curtis will explore t",
+    "url": ""
+  },
+  {
+    "title": " Beyond the Buzz Community Fair",
+    "location": "North Concourse Upper Place Riel",
+    "start": "2024-11-26T11:00:00",
+    "end": "2024-11-26T15:00:00",
+    "description": "Come by the Beyond the Buzz Community Fair. Visit with the St ",
+    "url": ""
+  },
+  {
+    "title": " Substance Use and Mental Health, A Beyond the Buzz Lunch and Lea",
+    "location": "",
+    "start": "2024-11-26T12:00:00",
+    "end": "2024-11-26T13:00:00",
+    "description": "In this Lunch and Learn session Dr. Isaac Cheveldae will be ex",
+    "url": ""
+  },
+  {
+    "title": "Journey to Freedom – creating a mindset for change through movemen",
+    "location": "PAC 101",
+    "start": "2024-11-27T09:00:00",
+    "end": "2024-11-27T10:30:00",
+    "description": "Join Matt on Nov 27th from 9-10:30am PAC 101 as he weaves brea",
+    "url": ""
+  },
+  {
+    "title": "Substance Use and the Brain: What are the Risks? A Beyond the BuzzLunch and Learn Webinar",
+    "location": "",
+    "start": "2024-11-27T12:00:00",
+    "end": "2024-11-27T13:00:00",
+    "description": "In this Lunch and Learn session Dr. Alana Holt and Chelsea Kor",
+    "url": ""
+  },
+  {
+    "title": "Navigating Campus Life When You Don’t Drink, A Beyond the Buzz Lu",
+    "location": "",
+    "start": "2024-11-28T12:00:00",
+    "end": "2024-11-28T13:00:00",
+    "description": "In this Lunch and Learn session students Johnny, Tianna, Par",
+    "url": ""
+  },
+  {
+    "title": "Saskatoon Street Drug Trends Information Session, A Beyond the Bu",
+    "location": "Arts 100",
+    "start": "2024-11-28T15:00:00",
+    "end": "2024-11-28T16:30:00",
+    "description": "The Saskatoon Police Service Crime Reduction Team (CRT) will p",
+    "url": ""
+  },
+  {
+    "title": " Doctor: Heal Thyself, A Beyond the Buzz Lunch and Learn Webinar",
+    "location": "",
+    "start": "2024-11-29T12:00:00",
+    "end": "2024-11-29T13:00:00",
+    "description": "In this Lunch and Learn session, Wendy, a retired Anesthesio",
+    "url": ""
+  },
+  {
+    "title": "Holiday Decorating Party (PA Campus)",
+    "location": "Student Commons",
+    "start": "2024-11-21T12:00:00",
+    "end": "2024-11-21T13:30:00",
+    "description": "Decorating for the holidays at the PA Campus.",
+    "url": ""
+  },
+  {
+    "title": "The Student Wellness Center is Creating Vision Boards",
+    "location": "Usask Community Centre (Marquis 104)",
+    "start": "2024-11-28T17:00:00",
+    "end": "2024-11-28T18:00:00",
+    "description": "A holistic approach to student wellness by creating vision",
+    "url": ""
+  },
+  {
+    "title": "ADHD/Neurodivergent Support Group",
+    "location": "Place Riel 323",
+    "start": "2024-10-23T15:00:00",
+    "end": "2024-10-23T16:00:00",
+    "description": "Peer-to-peer support for students with invisible disabilities.Students curious about invisible disabilities are welcome to join.",
+    "url": ""
+  },
+  {
+    "title": "Book Club (PA Campus)",
+    "location": " Room 142.2, PA Campus",
+    "start": "2024-11-20T19:00:00",
+    "end": "2024-11-20T20:30:00",
+    "description": "A discussion of Becky Albertalli’s multi-award winning young a",
+    "url": ""
+  },
+  {
+    "title": "International Students Immigration Clinic",
+    "location": "Room 1037 in the College of Education",
+    "start": "2024-12-11T13:00:00",
+    "end": "2024-12-11T16:00:00",
+    "description": "You may be a new or a current USask international student who ",
+    "url": ""
+  },
+  {
+    "title": "Cooking Made Simple",
+    "location": "323 Place Riel Student Centre (third floor)",
+    "start": "2024-11-29T15:00:00",
+    "end": "2024-11-29T17:00:00",
+    "description": "Join Peer Health in making Greek pasta salad! No cooking exper",
+    "url": ""
+  },
+  {
+    "title": " Crossing the Border and Packing Tips",
+    "location": "Online via Zoom",
+    "start": "2024-12-12T09:00:00",
+    "end": "2024-12-12T10:00:00",
+    "description": "The anticipation of living in a new country as an internationa",
+    "url": ""
+  },
+  {
+    "title": "What If I Cannot Arrive on Time to Start My USask Program?",
+    "location": "Online via Zoom",
+    "start": "2024-12-06T10:00:00",
+    "end": "2024-12-06T11:00:00",
+    "description": "You are an international student, admitted to USask, you app",
+    "url": ""
+  },
+  {
+    "title": "ADHD/Neurodivergent Support Group",
+    "location": "Place Riel Student Centre 323 (third floor)",
+    "start": "2024-12-11T15:00:00",
+    "end": "2024-12-11T16:00:00",
+    "description": "Peer-to-peer support for students with invisible disabilities.Students curious about invisible disabilities are welcome to join.",
+    "url": ""
+  },
+  {
+    "title": "TA Success Days",
+    "location": " Murray Library",
+    "start": "2025-01-07",
+    "end": "2025-01-08",
+    "description": "A two-day event organized by the Gwenna Moss Centre for Teachi",
+    "url": ""
+  },
+  {
+    "title": "Need a place to study and chill during exam season?",
+    "location": "USask Community Centre (Marquis 104)",
+    "start": "2024-12-09T11:00:00",
+    "end": "2024-12-09T15:30:00",
+    "description": "Need a place to study or unwind during exams? Join Peer Healthfor a chill study space where you can focus, take breaks, or do both!",
+    "url": ""
+  },
+  {
+    "title": "Welcome Centre for international students",
+    "location": "Global Connections Student Lounge (Room 70, Lower Place Riel, 1Campus Drive)",
+    "start": "2025-01-06T10:00:00",
+    "end": "2025-01-08T14:00:00",
+    "description": "You've arrived in Canada &#45;&#45; now what? ISSAC is here ",
+    "url": ""
+  },
+  {
+    "title": "Social Insurance Number (SIN) Clinics",
+    "location": "ISSAC Training Room (Room 70.4, Lower Place Riel, 1 Campus Driv",
+    "start": "2025-01-09T10:00:00",
+    "end": "2025-01-10T14:00:00",
+    "description": "In order to work in Canada on your study permit, internationa",
+    "url": ""
+  },
+  {
+    "title": "International Exchange Student VIRTUAL Information Session",
+    "location": "Online",
+    "start": "2024-12-18T09:00:00",
+    "end": "2024-12-18T10:00:00",
+    "description": "Join us for a brief presentation on the most important things ",
+    "url": ""
+  },
+  {
+    "title": "International Student Campus Tour",
+    "location": "Tours will begin in the Global Connections Students Lounge (Room ",
+    "start": "2025-01-10T14:30:00",
+    "end": "2025-01-10T15:15:00",
+    "description": "Wondering where things are located on USask main campus? Wheth",
+    "url": ""
+  },
+  {
+    "title": "International Student Campus Tour",
+    "location": "Tours will begin in the Global Connections Students Lounge (Room ",
+    "start": "2025-01-17T14:30:00",
+    "end": "2025-01-17T15:15:00",
+    "description": "Wondering where things are located on USask main campus? Wheth",
+    "url": ""
+  },
+  {
+    "title": "International Student Campus Tour",
+    "location": "Tours will begin in the Global Connections Students Lounge (Room ",
+    "start": "2025-01-24T14:30:00",
+    "end": "2025-01-24T15:15:00",
+    "description": "Wondering where things are located on USask main campus? Wheth",
+    "url": ""
+  },
+  {
+    "title": "International Student Campus Tour",
+    "location": "Tours will begin in the Global Connections Students Lounge (Room ",
+    "start": "2025-01-31T14:30:00",
+    "end": "2025-01-31T15:15:00",
+    "description": "Wondering where things are located on USask main campus? Wheth",
+    "url": ""
+  },
+  {
+    "title": "Grandmother Full Moon Ceremony (PA Campus)",
+    "location": "320 -11th Street Northwest, Prince Albert",
+    "start": "2024-12-14T18:30:00",
+    "end": "2024-12-14T19:30:00",
+    "description": "Join Prince Albert students, staff and faculty for this cerem",
+    "url": ""
+  },
+  {
+    "title": "Talk to us Tuesday (PA Campus)",
+    "location": "Atrium, PA Campus",
+    "start": "2025-01-07T09:00:00",
+    "end": "2025-01-07T11:00:00",
+    "description": "Join us for muffins, coffee and a chat.",
+    "url": ""
+  },
+  {
+    "title": "Talk to us Tuesday (PA Campus)",
+    "location": "Atrium, PA Campus",
+    "start": "2025-01-14T09:00:00",
+    "end": "2025-01-14T11:00:00",
+    "description": "Join us for muffins, coffee and a chat.",
+    "url": ""
+  },
+  {
+    "title": "Talk to us Tuesday (PA Campus)",
+    "location": "Atrium, PA Campus",
+    "start": "2025-01-21T09:00:00",
+    "end": "2025-01-21T11:00:00",
+    "description": "Join us for muffins, coffee and a chat.",
+    "url": ""
+  },
+  {
+    "title": "Talk to us Tuesday (PA Campus)",
+    "location": "Atrium, PA Campus",
+    "start": "2025-01-28T09:00:00",
+    "end": "2025-01-28T11:00:00",
+    "description": "Join us for muffins, coffee and a chat.",
+    "url": ""
+  },
+  {
+    "title": "Winter Welcome 2025",
+    "location": "",
+    "start": "2025-01-03T12:30:00",
+    "end": "2025-01-03T16:00:00",
+    "description": "U﻿Sask invites new students starting on campus for the winter ",
+    "url": ""
+  },
+  {
+    "title": "Métis New Year's Partii",
+    "location": "Gordon Oakes Red Bear Student Centre",
+    "start": "2025-01-24T16:00:00",
+    "end": "2025-01-24T19:00:00",
+    "description": "Come join us at the Gordon Oakes Red Bear Student Centre for anight of celebration and fun as we ring in the New Year Métis style!",
+    "url": ""
+  },
+  {
+    "title": "ISSAC goes to Huskie Hockey Game",
+    "location": "Global Connections Student Lounge (Room 70, Lower Place Riel, 1Campus Drive)",
+    "start": "2025-01-17T18:00:00",
+    "end": "2025-01-17T21:00:00",
+    "description": "We will be cheering for the USask Huskies at their Men's Hocke",
+    "url": ""
+  },
+  {
+    "title": "Winter Term Student Walking Group",
+    "location": "Meet at the USask Community Centre (Marquis 104)",
+    "start": "2025-01-14T11:30:00",
+    "end": "2025-01-14T12:00:00",
+    "description": "Join us for a 30-min walking group around campus on Tuesdays.",
+    "url": ""
+  },
+  {
+    "title": "Pre-Professional Nursing Students Information Session (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-01-22T13:00:00",
+    "end": "2025-01-22T13:30:00",
+    "description": "Attention all Prince Albert Campus Pre-Professional Nursing st",
+    "url": ""
+  },
+  {
+    "title": "Nursing Grad Info Session (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-01-22T12:30:00",
+    "end": "2025-01-22T13:00:00",
+    "description": "Attention all Prince Albert Campus Nursing students!",
+    "url": ""
+  },
+  {
+    "title": "Book Club (PA Campus)",
+    "location": "Room 136, PA Campus",
+    "start": "2025-02-03T19:00:00",
+    "end": "2025-02-03T21:00:00",
+    "description": "A discussion of Becky Albertalli’s multi-award winning young a",
+    "url": ""
+  },
+  {
+    "title": "Green Therapy: Planting for Wellbeing",
+    "location": "ISSAC Training Room (Room 70.4, Lower Place Riel)",
+    "start": "2025-02-06T16:30:00",
+    "end": "2025-02-06T18:00:00",
+    "description": "Discover the joy of plant therapy! Get creative, design pots\\",
+    "url": ""
+  },
+  {
+    "title": "Peer Health and Nutrition Cooking Classes",
+    "location": "Health Sciences Building room HLTH 2B64",
+    "start": "2025-01-29T14:00:00",
+    "end": "2025-01-29T15:00:00",
+    "description": "Peer Health and Year 3 Nutrition students are hosting free coo",
+    "url": ""
+  },
+  {
+    "title": "Peer Health and Nutrition Cooking Classes",
+    "location": "Health Sciences Building room HLTH 2B64",
+    "start": "2025-01-15T14:00:00",
+    "end": "2025-01-15T15:00:00",
+    "description": "Free cooking classes open to all students. Please see the atta",
+    "url": ""
+  },
+  {
+    "title": "Winter Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-01-07T12:00:00",
+    "end": "2025-01-07T13:00:00",
+    "description": "Five week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Winter Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-01-14T12:00:00",
+    "end": "2025-01-14T13:00:00",
+    "description": "Five week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Winter Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-01-21T12:00:00",
+    "end": "2025-01-21T13:00:00",
+    "description": "Five week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Winter Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-02-04T12:00:00",
+    "end": "2025-02-04T13:00:00",
+    "description": "Five week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Winter Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-02-11T12:00:00",
+    "end": "2025-02-11T13:00:00",
+    "description": "Five week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Student Health Fair (PA Campus)",
+    "location": "Atrium, PA Campus",
+    "start": "2025-01-28T11:00:00",
+    "end": "2025-01-28T13:00:00",
+    "description": "Join a variety of health-related organizations at the Student ",
+    "url": ""
+  },
+  {
+    "title": "Lunar New Year 2025 DIY Crafting Event",
+    "location": "ISSAC Training Room (Room 70.4, Lower Place Riel)",
+    "start": "2025-01-24T17:00:00",
+    "end": "2025-01-24T19:00:00",
+    "description": "Let’s kick-start the new term with creativity, culture, and ",
+    "url": ""
+  },
+  {
+    "title": "International Student Welcome and Orientation",
+    "location": "ISSAC Training Room (Room 70.4, Lower Place Riel, 1 Campus Driv",
+    "start": "2025-01-15T16:30:00",
+    "end": "2025-01-15T18:00:00",
+    "description": "Are you a new international student? Meet the ISSAC team and l",
+    "url": ""
+  },
+  {
+    "title": "Employer Pop-up",
+    "location": "Engineering & Agricultural Building",
+    "start": "2025-01-23T11:00:00",
+    "end": "2025-01-23T15:00:00",
+    "description": "Employers want to meet you! Get connected in-person! Employer ",
+    "url": ""
+  },
+  {
+    "title": "Employer Pop-up",
+    "location": "Engineering Building",
+    "start": "2025-01-24T11:00:00",
+    "end": "2025-01-24T15:00:00",
+    "description": "Employers want to meet you! Get connected in-person! Employer ",
+    "url": ""
+  },
+  {
+    "title": "Employer Pop-up",
+    "location": "Arts Tunnel - Arts Building",
+    "start": "2025-01-20T11:00:00",
+    "end": "2025-01-20T15:00:00",
+    "description": "Employers want to meet you! Get connected in-person! Employer ",
+    "url": ""
+  },
+  {
+    "title": "Employer Pop-up",
+    "location": "Engineering Building & Geology Building",
+    "start": "2025-01-21T11:00:00",
+    "end": "2025-01-21T15:00:00",
+    "description": "Employers want to meet you! Get connected in-person! Employer ",
+    "url": ""
+  },
+  {
+    "title": "Employer Pop-up",
+    "location": "Engineering Building & Arts Building",
+    "start": "2025-01-22T11:00:00",
+    "end": "2025-01-22T15:00:00",
+    "description": "Employers want to meet you! Get connected in-person! Employer ",
+    "url": ""
+  },
+  {
+    "title": "A Holistic Approach to Student Wellness",
+    "location": "USask Community Centre (Marquis 104)",
+    "start": "2025-01-23T17:00:00",
+    "end": "2025-01-23T18:00:00",
+    "description": "This workshop focuses on Holistic education, which fosters so",
+    "url": ""
+  },
+  {
+    "title": "ADHD/Neurodivergent Support Group",
+    "location": "Place Riel 323",
+    "start": "2025-01-29T15:00:00",
+    "end": "2025-01-29T16:00:00",
+    "description": "Peer-to-peer support for students with invisible disabilities.Students curious about invisible disabilities are welcome to join.",
+    "url": ""
+  },
+  {
+    "title": "Eating Disorders Don’t Discriminate: Virtual Panel",
+    "location": "Zoom",
+    "start": "2025-02-06T16:00:00",
+    "end": "2025-02-06T17:00:00",
+    "description": "Join us on February 6th, 2024, at 4 pm (CST) for a panel dis",
+    "url": ""
+  },
+  {
+    "title": "Classroom and Academic Expectations",
+    "location": "ISSAC Training Room (Room 70.4, Lower Place Riel, 1 Campus Driv",
+    "start": "2025-02-05T14:00:00",
+    "end": "2025-02-05T15:00:00",
+    "description": "Students have academic responsibilities right away when course",
+    "url": ""
+  },
+  {
+    "title": "Talk to us Tuesday (PA Campus)",
+    "location": "Atrium, PA Campus",
+    "start": "2025-02-04T09:00:00",
+    "end": "2025-02-04T11:00:00",
+    "description": "Join us for muffins, coffee and a chat.",
+    "url": ""
+  },
+  {
+    "title": "Talk to us Tuesday (PA Campus)",
+    "location": "Atrium, PA Campus",
+    "start": "2025-02-11T09:00:00",
+    "end": "2025-02-11T11:00:00",
+    "description": "Join us for muffins, coffee and a chat.",
+    "url": ""
+  },
+  {
+    "title": "Talk to us Tuesday (PA Campus)",
+    "location": "Atrium, PA Campus",
+    "start": "2025-02-25T09:00:00",
+    "end": "2025-02-25T11:00:00",
+    "description": "Join us for muffins, coffee and a chat.",
+    "url": ""
+  },
+  {
+    "title": "'Love Simon' Movie Night (PA Campus)",
+    "location": "Room 136, PA Campus",
+    "start": "2025-02-10T19:00:00",
+    "end": "2025-02-10T21:00:00",
+    "description": "Join us for a movie viewing of 'Love Simon' and informal discu",
+    "url": ""
+  },
+  {
+    "title": "Let's Talk Immigration",
+    "location": "Online via Zoom",
+    "start": "2025-02-11T10:00:00",
+    "end": "2025-02-11T11:30:00",
+    "description": "Everything international students need to know about immigrati",
+    "url": ""
+  },
+  {
+    "title": "Let's Talk Immigration",
+    "location": "Arts 214",
+    "start": "2025-02-14T10:00:00",
+    "end": "2025-02-14T11:30:00",
+    "description": "Everything international students need to know about immigrati",
+    "url": ""
+  },
+  {
+    "title": "Permanent Residency Information Session with an Immigration Lawyer",
+    "location": "Online via Zoom",
+    "start": "2025-03-03T14:00:00",
+    "end": "2025-03-03T16:00:00",
+    "description": "Join an information session on permanent residency hosted by D",
+    "url": ""
+  },
+  {
+    "title": "CopeWell – Psychoeducational drop-in sessions for all students!",
+    "location": "Room 323 – 3rd Floor Place Riel",
+    "start": "2025-02-25T13:15:00",
+    "end": "2025-02-25T14:15:00",
+    "description": "Psychoeducational groups intended to provide participants withopportunities for both learning and self-reflection.  Drop-ins welcome, ",
+    "url": ""
+  },
+  {
+    "title": "CopeWell – Psychoeducational drop-in sessions for all students!",
+    "location": "Room 323 – 3rd Floor Place Riel",
+    "start": "2025-03-04T13:15:00",
+    "end": "2025-03-04T14:15:00",
+    "description": "Psychoeducational groups intended to provide participants withopportunities for both learning and self-reflection.  Drop-ins welcome, ",
+    "url": ""
+  },
+  {
+    "title": "CopeWell – Psychoeducational drop-in sessions for all students!",
+    "location": "Room 323 – 3rd Floor Place Riel",
+    "start": "2025-03-18T13:15:00",
+    "end": "2025-03-18T14:15:00",
+    "description": "Psychoeducational groups intended to provide participants withopportunities for both learning and self-reflection.  Drop-ins welcome, ",
+    "url": ""
+  },
+  {
+    "title": "CopeWell – Psychoeducational drop-in sessions for all students!",
+    "location": "Room 323 – 3rd Floor Place Riel",
+    "start": "2025-03-25T13:15:00",
+    "end": "2025-03-25T14:15:00",
+    "description": "Psychoeducational groups intended to provide participants withopportunities for both learning and self-reflection.  Drop-ins welcome, ",
+    "url": ""
+  },
+  {
+    "title": "CopeWell – Psychoeducational drop-in sessions for all students!",
+    "location": "Room 323 – 3rd Floor Place Riel",
+    "start": "2025-04-01T13:15:00",
+    "end": "2025-04-01T14:15:00",
+    "description": "Psychoeducational groups intended to provide participants withopportunities for both learning and self-reflection.  Drop-ins welcome, ",
+    "url": ""
+  },
+  {
+    "title": "ChangeWell– Psychoeducational drop-in sessions for all students!",
+    "location": "Room 323 – 3rd Floor Place Riel",
+    "start": "2025-02-11T13:15:00",
+    "end": "2025-02-11T15:15:00",
+    "description": "Psychoeducational groups intended to provide participants withopportunities for both learning and self-reflection.  Drop-ins welcome, ",
+    "url": ""
+  },
+  {
+    "title": "ChangeWell– Psychoeducational drop-in sessions for all students!",
+    "location": "Room 323 – 3rd Floor Place Riel",
+    "start": "2025-03-11T13:15:00",
+    "end": "2025-03-11T15:15:00",
+    "description": "Psychoeducational groups intended to provide participants withopportunities for both learning and self-reflection.  Drop-ins welcome, ",
+    "url": ""
+  },
+  {
+    "title": "Drop-in Immigration and Academic Advising for Undergraduate Intern",
+    "location": "ISSAC Main Office (Room 80, Lower Place Riel)",
+    "start": "2025-02-13T14:00:00",
+    "end": "2025-02-13T16:00:00",
+    "description": "The International Student and Study Abroad Centre (ISSAC), incollaboration with the College of Arts and Science, is excited to offer ",
+    "url": ""
+  },
+  {
+    "title": "Drop-in Immigration and Academic Advising for Undergraduate Intern",
+    "location": "ISSAC Main Office (Room 80, Lower Place Riel)",
+    "start": "2025-02-06T14:00:00",
+    "end": "2025-02-06T16:00:00",
+    "description": "The International Student and Study Abroad Centre (ISSAC), incollaboration with the College of Arts and Science, is excited to offer ",
+    "url": ""
+  },
+  {
+    "title": "Mental Health Support Plan Workshop",
+    "location": "USask Community Centre (Marquis 104)",
+    "start": "2025-01-31T16:00:00",
+    "end": "2025-01-31T18:00:00",
+    "description": "What's in your mental health toolbox? Learn about coping skill",
+    "url": ""
+  },
+  {
+    "title": "Make a Valentine with ISSAC",
+    "location": "ISSAC Training Room (Room 70.4, Lower Place Riel)",
+    "start": "2025-02-11T15:00:00",
+    "end": "2025-02-11T16:30:00",
+    "description": "Get into the Valentine's Day spirit with ISSAC!",
+    "url": ""
+  },
+  {
+    "title": "Peer Health Art Social",
+    "location": "Usask Community Centre (Across from the Usask Bookstore)",
+    "start": "2025-02-13T15:00:00",
+    "end": "2025-02-13T17:00:00",
+    "description": "Come join us for a couple of hours of art-making and art-relat",
+    "url": ""
+  },
+  {
+    "title": "Karaoke Night with ISSAC",
+    "location": "ISSAC Training Room (Room 70.4, Lower Place Riel)",
+    "start": "2025-02-20T17:00:00",
+    "end": "2025-02-20T19:00:00",
+    "description": "Bored and want to take an exciting break during Reading Week?",
+    "url": ""
+  },
+  {
+    "title": "All Peoples All Pathways",
+    "location": "Online via Zoom",
+    "start": "2024-09-10",
+    "end": "2024-09-10",
+    "description": "A place for students at the University of Saskatchewan to go w",
+    "url": ""
+  },
+  {
+    "title": "First-Year Check-In for International Students",
+    "location": "ISSAC Training Room (Room 70.4, Lower Place Riel, 1 Campus Driv",
+    "start": "2025-02-19T12:00:00",
+    "end": "2025-02-19T13:00:00",
+    "description": "Take a break and join ISSAC for a gathering just for internati",
+    "url": ""
+  },
+  {
+    "title": "Peer Health is Building Vision Boards",
+    "location": "USask Community Centre (Marquis 104)",
+    "start": "2025-02-13T17:00:00",
+    "end": "2025-02-13T18:30:00",
+    "description": "Vision boards are based on the same theory as the law of attra",
+    "url": ""
+  },
+  {
+    "title": "Celebration for Black History Month (PA Campus)",
+    "location": "Student Commons, PA Campus",
+    "start": "2025-02-26T15:30:00",
+    "end": "2025-02-26T17:30:00",
+    "description": "Join us for food, music and fellowship",
+    "url": ""
+  },
+  {
+    "title": "USask Black History Month Learning Community (PA Campus)",
+    "location": "Online for PA Campus",
+    "start": "2025-02-11",
+    "end": "2025-02-11",
+    "description": "Black History Month (BHM) discussions",
+    "url": ""
+  },
+  {
+    "title": "Black History Month movie (PA Campus)",
+    "location": "Room 136, PA Campus",
+    "start": "2025-02-27T19:00:00",
+    "end": "2025-02-27T21:00:00",
+    "description": "Join us to view and discuss the movie 'Hidden Figures'",
+    "url": ""
+  },
+  {
+    "title": "Black History Month Book Club (PA Campus)",
+    "location": "Room 136, PA Campus",
+    "start": "2025-02-25T19:00:00",
+    "end": "2025-02-25T21:00:00",
+    "description": "Join our PA Book Club discussion of 'The Hate U Give' for Blac",
+    "url": ""
+  },
+  {
+    "title": "'Scottsboro: An American Tragedy' movie night (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-02-14T14:00:00",
+    "end": "2025-02-14T16:00:00",
+    "description": "Join us to view and discuss 'Scottsboro: An American Tragedy'",
+    "url": ""
+  },
+  {
+    "title": "Winter Nature Therapy Walk  &#45;&#45;  Meewasin Trail - CANCELLED DUE TO ",
+    "location": "Meewasin Trail Entrance, Diefenbaker Centre Back Parking Lot, U",
+    "start": "2025-02-12T13:30:00",
+    "end": "2025-02-12T15:30:00",
+    "description": "Looking for a way to slow down from academic and life stressor",
+    "url": ""
+  },
+  {
+    "title": "USask Prince Albert Speaker (PA Campus)",
+    "location": "",
+    "start": "2025-02-12T15:30:00",
+    "end": "2025-02-12T17:00:00",
+    "description": "Join the the WGST 112.3 class to welcome PA speaker, Adie She",
+    "url": ""
+  },
+  {
+    "title": "Get Tested, Stay Protected: Free STI Testing",
+    "location": "3rd floor, Place Riel Student Centre",
+    "start": "2025-03-05T10:00:00",
+    "end": "2025-03-05T15:00:00",
+    "description": "The STI Blitz is a confidential STI self-testing clinic that t",
+    "url": ""
+  },
+  {
+    "title": "ADHD/Neurodivergent Support Group",
+    "location": "Place Riel 323",
+    "start": "2025-02-26T15:00:00",
+    "end": "2025-02-26T16:00:00",
+    "description": "Peer-to-peer support for students with invisible disabilities.Students curious about invisible disabilities are welcome to join. This m",
+    "url": ""
+  },
+  {
+    "title": "Relax & Recharge Night",
+    "location": "USask Community Centre (Marquis 104)",
+    "start": "2025-02-25T17:00:00",
+    "end": "2025-02-25T19:00:00",
+    "description": "Looking for a new self-care activity? Come by to relax, recha",
+    "url": ""
+  },
+  {
+    "title": "Reading Week Movie Mingle",
+    "location": "USask Community Centre (Marquis 104)",
+    "start": "2025-02-20T14:00:00",
+    "end": "2025-02-20T16:00:00",
+    "description": "Need something to do over Reading Week? Come hang out with us ",
+    "url": ""
+  },
+  {
+    "title": "Talk to us Tuesday (PA Campus)",
+    "location": "Atrium, PA Campus",
+    "start": "2025-03-04T09:00:00",
+    "end": "2025-03-04T11:00:00",
+    "description": "Join us for muffins, coffee and a chat.",
+    "url": ""
+  },
+  {
+    "title": "Talk to us Tuesday (PA Campus)",
+    "location": "Atrium, PA Campus",
+    "start": "2025-03-11T09:00:00",
+    "end": "2025-03-11T11:00:00",
+    "description": "Join us for muffins, coffee and a chat.",
+    "url": ""
+  },
+  {
+    "title": "Talk to us Tuesday (PA Campus)",
+    "location": "Atrium, PA Campus",
+    "start": "2025-03-18T09:00:00",
+    "end": "2025-03-18T11:00:00",
+    "description": "Join us for muffins, coffee and a chat.",
+    "url": ""
+  },
+  {
+    "title": "Talk to us Tuesday (PA Campus)",
+    "location": "Atrium, PA Campus",
+    "start": "2025-03-25T09:00:00",
+    "end": "2025-03-25T11:00:00",
+    "description": "Join us for muffins, coffee and a chat.",
+    "url": ""
+  },
+  {
+    "title": "Indigenous Student Achievement week (PA Campus)",
+    "location": "Atrium, PA Campus",
+    "start": "2025-03-10",
+    "end": "2025-03-14",
+    "description": "Join us in celebrating this important week.",
+    "url": ""
+  },
+  {
+    "title": "USask Black History Month Learning Community (PA Campus)",
+    "location": "Online for PA Campus",
+    "start": "2025-02-25T12:00:00",
+    "end": "2025-02-25T13:00:00",
+    "description": "Black History Month (BHM) discussions",
+    "url": ""
+  },
+  {
+    "title": "Caring Cards for Campus",
+    "location": "USask Community Centre (Marquis 104)",
+    "start": "2025-01-22T10:00:00",
+    "end": "2025-01-22T11:00:00",
+    "description": "Caring Cards for Campus (CCC) is a project through Peer Healthwhich aims to shine a light in the lives of fellow students through the a",
+    "url": ""
+  },
+  {
+    "title": "A Holistic Approach to Wellness for Students",
+    "location": "Room 323 – 3rd Floor Place Riel",
+    "start": "2025-02-26T17:00:00",
+    "end": "2025-02-26T18:00:00",
+    "description": "This workshop by Peer Health focuses on Holistic education, w",
+    "url": ""
+  },
+  {
+    "title": "JSGS visit and lunch and learn",
+    "location": "Room 136, PA Campus",
+    "start": "2025-03-04T09:30:00",
+    "end": "2025-03-04T15:00:00",
+    "description": "Johnson Shoyama Graduate School of Public Policy recruitment i",
+    "url": ""
+  },
+  {
+    "title": "Self-Love Jar Making Workshop",
+    "location": "USask Community Centre (Marquis 104)",
+    "start": "2025-03-14T17:00:00",
+    "end": "2025-03-14T19:00:00",
+    "description": "Come decorate a jar and fill it with positive messages for you",
+    "url": ""
+  },
+  {
+    "title": "St. Patrick's Day Coin Hunt with ISSAC",
+    "location": "ISSAC Training Room (Room 70.4, Lower Place Riel)",
+    "start": "2025-03-17T14:30:00",
+    "end": "2025-03-17T16:00:00",
+    "description": "We're hiding lucky coins around campus and YOU could be the on",
+    "url": ""
+  },
+  {
+    "title": "Tote-ally Artsy: Tote Paint Night with ISSAC",
+    "location": "ISSAC Training Room (Room 70.4, Lower Place Riel)",
+    "start": "2025-03-20T16:30:00",
+    "end": "2025-03-20T18:00:00",
+    "description": "Get ready for a fun-filled day of creativity at Tote-ally Arts",
+    "url": ""
+  },
+  {
+    "title": "Indigenous knowledge workshop (PA Campus)",
+    "location": "Room 250, PA Campus",
+    "start": "2025-03-04T13:30:00",
+    "end": "2025-03-04T14:30:00",
+    "description": "Join us for Indigenous Knowledge Workshops with our Knowledge ",
+    "url": ""
+  },
+  {
+    "title": "Indigenous knowledge workshop (PA Campus)",
+    "location": "Room 250, PA Campus",
+    "start": "2025-03-11T13:30:00",
+    "end": "2025-03-11T14:30:00",
+    "description": "Join us for Indigenous Knowledge Workshops with our Knowledge ",
+    "url": ""
+  },
+  {
+    "title": "Indigenous knowledge workshop (PA Campus)",
+    "location": "Room 250, PA Campus",
+    "start": "2025-03-18T13:30:00",
+    "end": "2025-03-18T14:30:00",
+    "description": "Join us for Indigenous Knowledge Workshops with our Knowledge ",
+    "url": ""
+  },
+  {
+    "title": "Indigenous knowledge workshop (PA Campus)",
+    "location": "Room 250, PA Campus",
+    "start": "2025-03-25T13:30:00",
+    "end": "2025-03-25T14:30:00",
+    "description": "Join us for Indigenous Knowledge Workshops with our Knowledge ",
+    "url": ""
+  },
+  {
+    "title": "Indigenous beading workshop (PA Campus)",
+    "location": "Student Commons, PA Campus",
+    "start": "2025-03-11T16:45:00",
+    "end": "2025-03-11T18:00:00",
+    "description": "Celebrate Indigenous Student Achievement Week by joining us fo",
+    "url": ""
+  },
+  {
+    "title": "Board Game Night",
+    "location": "USask Community Centre (Marquis 104)",
+    "start": "2025-01-24T16:00:00",
+    "end": "2025-01-24T17:00:00",
+    "description": "Looking for a fun way to unwind and meet new people? Join us f",
+    "url": ""
+  },
+  {
+    "title": "Karaoke party",
+    "location": "USask Community Centre (Marquis 104)",
+    "start": "2025-03-07T16:00:00",
+    "end": "2025-03-07T18:00:00",
+    "description": "Karaoke event open for students!",
+    "url": ""
+  },
+  {
+    "title": "Grandmother Full Moon Ceremony (PA Campus)",
+    "location": "Prince Albert",
+    "start": "2025-03-14T20:00:00",
+    "end": "2025-03-14T21:00:00",
+    "description": "Join Prince Albert students, staff and faculty for this cerem",
+    "url": ""
+  },
+  {
+    "title": "Special speaker Sheryl Kimbley (PA Campus)",
+    "location": "Room 246, PA Campus",
+    "start": "2025-03-12T14:00:00",
+    "end": "2025-03-12T15:00:00",
+    "description": "In honour of both Indigenous Achievement Week and Internationa",
+    "url": ""
+  },
+  {
+    "title": "Coffee and Bannock (PA Campus)",
+    "location": "Atrium, PA Campus",
+    "start": "2025-03-13T09:00:00",
+    "end": "2025-03-13T10:00:00",
+    "description": "Celebrate Indigenous Student Achievement Week by joining us fo",
+    "url": ""
+  },
+  {
+    "title": "Coffee and Bannock (PA Campus)",
+    "location": "Atrium, PA Campus",
+    "start": "2025-03-10T09:00:00",
+    "end": "2025-03-10T10:00:00",
+    "description": "Celebrate Indigenous Student Achievement Week by joining us fo",
+    "url": ""
+  },
+  {
+    "title": "McCall MacBain Scholarship info session",
+    "location": "Convocation Hall (PMB 120)",
+    "start": "2025-03-11T16:00:00",
+    "end": "2025-03-11T17:00:00",
+    "description": "The McCall MacBain Scholarships are Canada’s first comprehensi",
+    "url": ""
+  },
+  {
+    "title": "ADHD/Neurodivergent Support Group",
+    "location": "Place Riel Student Centre 323 (third floor)",
+    "start": "2025-03-19T15:00:00",
+    "end": "2025-03-19T16:00:00",
+    "description": "Peer-to-peer support for students with invisible disabilities.Students curious about invisible disabilities are welcome to join.",
+    "url": ""
+  },
+  {
+    "title": "Hands-on Help: Post-Graduation Work Permit Application",
+    "location": "Online via Zoom",
+    "start": "2025-03-27T13:00:00",
+    "end": "2025-03-27T14:30:00",
+    "description": "Learn to apply for a post-graduation work permit.",
+    "url": ""
+  },
+  {
+    "title": "USask Connects Mentorship Program Info Session",
+    "location": "Online via Zoom",
+    "start": "2025-03-20T12:00:00",
+    "end": "2025-03-20T13:00:00",
+    "description": "Join a virtual info session to learn more about the USask Conn",
+    "url": ""
+  },
+  {
+    "title": "USask Connects Mentorship Program Info Session",
+    "location": "Online via Zoom",
+    "start": "2025-03-20T16:00:00",
+    "end": "2025-03-20T17:00:00",
+    "description": "Join a virtual info session to learn more about the USask Conn",
+    "url": ""
+  },
+  {
+    "title": "Immigrant Mental Health Panel",
+    "location": "USask Community Centre (Marquis 104)",
+    "start": "2025-03-19T14:30:00",
+    "end": "2025-03-19T16:30:00",
+    "description": "Panel discussion on immigrant identity, bicultural stress, a",
+    "url": ""
+  },
+  {
+    "title": "Mental Health Support Plan Workshop",
+    "location": "USask Community Centre (Marquis 104)",
+    "start": "2025-03-27T14:30:00",
+    "end": "2025-03-27T16:30:00",
+    "description": "What’s in your mental health toolbox? Learn about coping skill",
+    "url": ""
+  },
+  {
+    "title": "Spring Virtual Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-03-10T12:00:00",
+    "end": "2025-03-10T13:00:00",
+    "description": "Four week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Spring Virtual Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-03-12T12:00:00",
+    "end": "2025-03-12T13:00:00",
+    "description": "Four week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Spring Virtual Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-03-14T12:00:00",
+    "end": "2025-03-14T13:00:00",
+    "description": "Four week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Spring Virtual Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-03-17T12:00:00",
+    "end": "2025-03-17T13:00:00",
+    "description": "Four week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Spring Virtual Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-03-19T12:00:00",
+    "end": "2025-03-19T13:00:00",
+    "description": "Four week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Spring Virtual Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-03-21T12:00:00",
+    "end": "2025-03-21T13:00:00",
+    "description": "Four week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Spring Virtual Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-03-26T12:00:00",
+    "end": "2025-03-26T13:00:00",
+    "description": "Four week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Spring Virtual Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-03-28T12:00:00",
+    "end": "2025-03-28T13:00:00",
+    "description": "Four week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Spring Virtual Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-03-31T12:00:00",
+    "end": "2025-03-31T13:00:00",
+    "description": "Four week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Spring Virtual Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-04-02T12:00:00",
+    "end": "2025-04-02T13:00:00",
+    "description": "Four week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Spring Virtual Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-04-04T12:00:00",
+    "end": "2025-04-04T13:00:00",
+    "description": "Four week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Spring Virtual Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-04-01T12:00:00",
+    "end": "2025-04-01T13:00:00",
+    "description": "Four week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Spring Virtual Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-03-18T12:00:00",
+    "end": "2025-03-18T13:00:00",
+    "description": "Four week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Spring Virtual Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-03-24T12:00:00",
+    "end": "2025-03-24T13:00:00",
+    "description": "Four week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": "Spring Virtual Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-03-25T12:00:00",
+    "end": "2025-03-25T13:00:00",
+    "description": "Four week yoga session for PA Campus students.",
+    "url": ""
+  },
+  {
+    "title": " Naloxone Education and Training for Students/Staff at USASK",
+    "location": "Health Sciences Building Room 1130",
+    "start": "2025-03-19T12:30:00",
+    "end": "2025-03-19T13:30:00",
+    "description": "Naloxone education and training is being offered to decrease t",
+    "url": ""
+  },
+  {
+    "title": "Naloxone Education and Training for Students/Staff at USASK",
+    "location": "USask Community Centre (Marquis 104)",
+    "start": "2025-04-16T12:00:00",
+    "end": "2025-04-16T13:00:00",
+    "description": "Naloxone education and training is being offered to decrease t",
+    "url": ""
+  },
+  {
+    "title": "ADHD/Neurodivergent Support Group",
+    "location": "Room 323 – 3rd Floor Place Riel",
+    "start": "2025-04-16T15:00:00",
+    "end": "2025-04-16T16:00:00",
+    "description": " Peer-to-peer support for students with invisible disabilities.",
+    "url": ""
+  },
+  {
+    "title": "SINP Information Session on Permanent Residency",
+    "location": "Online via Zoom",
+    "start": "2025-04-30T14:00:00",
+    "end": "2025-04-30T16:00:00",
+    "description": "Learn to apply for permanent residency through SINP",
+    "url": ""
+  },
+  {
+    "title": "Working for Canada's federal government webinar",
+    "location": "Zoom",
+    "start": "2025-04-02T13:15:00",
+    "end": "2025-04-02T14:15:00",
+    "description": "Is a career in the public service the right move for you? Joina webinar with Associate Deputy Minister Michael Mills with Public Servic",
+    "url": ""
+  },
+  {
+    "title": "Grandmother Full Moon Ceremony (PA Campus)",
+    "location": "320-11th Street Northwest, Nordale, Prince Albert",
+    "start": "2025-04-12T20:30:00",
+    "end": "2025-04-12T21:30:00",
+    "description": "Join Prince Albert students, staff and faculty for this cerem",
+    "url": ""
+  },
+  {
+    "title": "Peer Health Podcast for Students",
+    "location": "",
+    "start": "2025-02-14T12:00:00",
+    "end": "2025-02-14T12:00:00",
+    "description": "Hosted by Ashley, Alex, and Chelsea, this podcast is led bystudents just like you, covering a range of topics and having some fun a",
+    "url": ""
+  },
+  {
+    "title": "Naloxone training (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-04-16T09:30:00",
+    "end": "2025-04-16T11:00:00",
+    "description": "Join Angie Sheppard, Addictions Counsellor for Naloxone train",
+    "url": ""
+  },
+  {
+    "title": "Coping well in Clinical mini workshop (PA Campus)",
+    "location": "Room 248, PA Campus",
+    "start": "2025-04-28T10:00:00",
+    "end": "2025-04-28T11:00:00",
+    "description": "In person or virtual mini workshop at PA Campus for 2nd year N",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2025-01-06T10:00:00",
+    "end": "2025-01-06T12:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Hands-on Help: Post-Graduation Work Permit Application",
+    "location": "Online via Zoom",
+    "start": "2025-05-06T10:00:00",
+    "end": "2025-05-06T12:00:00",
+    "description": "Learn to apply for a post-graduation work permit.",
+    "url": ""
+  },
+  {
+    "title": "College of Education: Alumni Reception and Pinning Ceremony (PA Ca",
+    "location": "Atrium, PA Campus",
+    "start": "2025-05-15T17:30:00",
+    "end": "2025-05-15T19:30:00",
+    "description": "Event open to all alumni who received their Bachelor of Educat",
+    "url": ""
+  },
+  {
+    "title": "USask Graduate Student Career Development Conference",
+    "location": "ARTS 133",
+    "start": "2025-05-10T09:00:00",
+    "end": "2025-05-10T14:30:00",
+    "description": "Event is open to all graduate students, especially graduate s",
+    "url": ""
+  },
+  {
+    "title": "U-START help session",
+    "location": "Atrium, PA Campus",
+    "start": "2025-05-22T17:00:00",
+    "end": "2025-05-22T19:00:00",
+    "description": "Pre-orientation and class registration preparation for admitte",
+    "url": ""
+  },
+  {
+    "title": "Physical Therapy Career Fair",
+    "location": "GD50 Atrium -  Health Sciences",
+    "start": "2025-06-04T16:00:00",
+    "end": "2025-06-04T18:30:00",
+    "description": "This is an excellent opportunity for students and alumni pursu",
+    "url": ""
+  },
+  {
+    "title": "Naloxone Education and Training for Students/Staff at USASK",
+    "location": "USask Community Centre (Marquis 104)",
+    "start": "2025-05-15T12:00:00",
+    "end": "2025-05-15T13:00:00",
+    "description": "Naloxone education and training is being offered to decrease t",
+    "url": ""
+  },
+  {
+    "title": "Permanent Residency Webinar: Pathways to PR and Employment",
+    "location": "Online via Zoom",
+    "start": "2025-05-28T10:00:00",
+    "end": "2025-05-28T12:00:00",
+    "description": "Join an information session on permanent residency by IMP Cana",
+    "url": ""
+  },
+  {
+    "title": "Lunchtime Yoga",
+    "location": "USask Community Centre (Marquis 104)",
+    "start": "2025-05-26T12:00:00",
+    "end": "2025-05-26T12:30:00",
+    "description": "Join us for a mindful moment of yoga every Monday at noon, st",
+    "url": ""
+  },
+  {
+    "title": "Gather & Game",
+    "location": "USask Community Centre (Marquis 104)",
+    "start": "2025-05-16T14:30:00",
+    "end": "2025-05-16T16:00:00",
+    "description": "Join us bi-weekly on Fridays at 2:30pm for board games and/or ",
+    "url": ""
+  },
+  {
+    "title": "Mental Health Support Plan Workshop",
+    "location": "USask Community Centre (Marquis 104)",
+    "start": "2025-05-21T13:30:00",
+    "end": "2025-05-21T15:30:00",
+    "description": "What’s in your mental health toolbox? Learn about coping skill",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "In-person in ISSAC office (Room 80, Lower Place Riel)",
+    "start": "2025-01-08T13:30:00",
+    "end": "2025-01-08T15:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Pharmacy Career Fair",
+    "location": "Marquis Hall",
+    "start": "2025-10-15T16:00:00",
+    "end": "2025-10-15T20:00:00",
+    "description": "The Pharmacy Career Fair is an excellent opportunity for stude",
+    "url": ""
+  },
+  {
+    "title": "Indigenous Student Career Fair",
+    "location": "Gordon Oakes Red Bear Student Centre",
+    "start": "2025-11-04T10:00:00",
+    "end": "2025-11-04T14:00:00",
+    "description": "We are pleased to invite you to our Indigenous Student Career ",
+    "url": ""
+  },
+  {
+    "title": "College-Specific Drop-in Immigration/Academic Advising",
+    "location": "In-person and online via Zoom",
+    "start": "2025-06-12T10:00:00",
+    "end": "2025-06-12T12:00:00",
+    "description": "The International Student and Study Abroad Centre (ISSAC), incollaboration with the College of Arts and Science, continues to offer d",
+    "url": ""
+  },
+  {
+    "title": "Grandmother Full Moon Ceremony (PA Campus)",
+    "location": "320-11th Street Northwest, Nordale, Prince Albert",
+    "start": "2025-07-10T20:00:00",
+    "end": "2025-07-10T21:00:00",
+    "description": "Join Prince Albert students, staff and faculty for this cerem",
+    "url": ""
+  },
+  {
+    "title": "Creative Self-Express for Mental Health Workshop",
+    "location": "USask Community Centre (Marquis 104)",
+    "start": "2025-07-09T13:30:00",
+    "end": "2025-07-09T15:30:00",
+    "description": "How can art and creative expression support mental wellness? L",
+    "url": ""
+  },
+  {
+    "title": "Strategies for Success Workshop",
+    "location": "USask Community Centre (Marquis 104)",
+    "start": "2025-07-16T10:00:00",
+    "end": "2025-07-16T11:30:00",
+    "description": "Learn about all things academic success from upper-year studen",
+    "url": ""
+  },
+  {
+    "title": "Careers Day",
+    "location": "PAC",
+    "start": "2025-09-17T10:00:00",
+    "end": "2025-09-17T15:00:00",
+    "description": "Careers Day gives USask students and alumni the opportunity toconnect with various organizations to discuss employment, volunteering,and graduate and professional school opportunities. Whether you're seekin",
+    "url": ""
+  },
+  {
+    "title": "ISSAC goes to Nutrien Fireworks Festival",
+    "location": "ISSAC Lounge (Room 70, Lower Place Riel)",
+    "start": "2025-08-29T17:00:00",
+    "end": "2025-08-29T20:30:00",
+    "description": "Come join the International Student and Study Abroad Centre (I",
+    "url": ""
+  },
+  {
+    "title": "ISSAC goes to the USask Homecoming Game",
+    "location": "ISSAC Lounge (Room 70, Lower Place Riel)",
+    "start": "2025-09-05T17:30:00",
+    "end": "2025-09-05T22:00:00",
+    "description": "We will be cheering for the USask Huskies at their Homecoming ",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "ISSAC Main Office (Room 80, Lower Place Riel)",
+    "start": "2025-08-14T10:00:00",
+    "end": "2025-08-14T12:00:00",
+    "description": "Provided by USask's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "ISSAC Main Office (Room 80, Lower Place Riel)",
+    "start": "2025-08-19T13:30:00",
+    "end": "2025-08-19T15:30:00",
+    "description": "Provided by USask's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2025-08-22T10:00:00",
+    "end": "2025-08-22T12:00:00",
+    "description": "Provided by USask's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2025-08-15T10:00:00",
+    "end": "2025-08-15T12:00:00",
+    "description": "Provided by USask's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2025-08-29T10:00:00",
+    "end": "2025-08-29T12:00:00",
+    "description": "Provided by USask's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2025-09-12T10:00:00",
+    "end": "2025-09-12T12:00:00",
+    "description": "Provided by USask's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "ISSAC Main Office (Room 80, Lower Place Riel)",
+    "start": "2025-08-26T10:00:00",
+    "end": "2025-08-26T12:00:00",
+    "description": "Provided by USask's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2025-09-02T13:00:00",
+    "end": "2025-09-02T15:00:00",
+    "description": "Provided by USask's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2025-09-04T13:00:00",
+    "end": "2025-09-04T15:00:00",
+    "description": "Provided by USask's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "Online via Zoom",
+    "start": "2025-08-21T13:30:00",
+    "end": "2025-08-21T15:30:00",
+    "description": "Provided by USask's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "ISSAC Main Office (Room 80, Lower Place Riel)",
+    "start": "2025-09-05T13:30:00",
+    "end": "2025-09-05T15:30:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "Immigration Drop-in Advising",
+    "location": "ISSAC Main Office (Room 80, Lower Place Riel)",
+    "start": "2025-09-09T10:00:00",
+    "end": "2025-09-09T12:00:00",
+    "description": "Provided by ISSAC's Regulated International Student Immigratio",
+    "url": ""
+  },
+  {
+    "title": "International Student Welcome Social",
+    "location": "Meet at ISSAC Lounge (Room 70, Lower Place Riel)",
+    "start": "2025-09-11T17:00:00",
+    "end": "2025-09-11T20:00:00",
+    "description": "Join ISSAC for a fun and welcoming evening to kick off your US",
+    "url": ""
+  },
+  {
+    "title": "ISSAC Open House",
+    "location": "ISSAC Lounge (Room 70, Lower Place Riel)",
+    "start": "2025-09-02T13:00:00",
+    "end": "2025-09-02T16:00:00",
+    "description": "We're opening our doors—come see what we're all about!",
+    "url": ""
+  },
+  {
+    "title": "Social Insurance Number (SIN) Clinic & Tax Information Booth",
+    "location": "ISSAC Training Room (Room 70.4, Lower Place Riel, 1 Campus Driv",
+    "start": "2025-09-02T13:00:00",
+    "end": "2025-09-02T16:00:00",
+    "description": "Planning to work in Canada? Not sure how taxes or benefits wor",
+    "url": ""
+  },
+  {
+    "title": "Preparing for USask: Live Q&A for New International and Exchange S",
+    "location": "Online via Zoom",
+    "start": "2025-08-07T09:30:00",
+    "end": "2025-08-07T11:00:00",
+    "description": "Are you starting at USask this fall as an international or exc",
+    "url": ""
+  },
+  {
+    "title": "Preparing for USask: Live Q&A for New International and Exchange S",
+    "location": "Online via Zoom",
+    "start": "2025-08-21T09:30:00",
+    "end": "2025-08-21T11:00:00",
+    "description": "Are you starting at USask this fall as an international or exc",
+    "url": ""
+  },
+  {
+    "title": "Last day to request AES exam accommodations for exams in December",
+    "location": "",
+    "start": "2024-11-19",
+    "end": "2024-11-19",
+    "description": "November 19th is the deadline for students registered with Acc",
+    "url": ""
+  },
+  {
+    "title": "Last day to request AES exam accommodations for exams in April",
+    "location": "",
+    "start": "2024-03-19",
+    "end": "2024-03-19",
+    "description": "March 19th is the deadline for students registered with Accessand Equity Services to request accommodations for exams being written in ",
+    "url": ""
+  },
+  {
+    "title": "Career Services Open House",
+    "location": "Career Services Office",
+    "start": "2025-09-02T12:00:00",
+    "end": "2025-09-02T14:00:00",
+    "description": "Join us at Open House to explore how our team is prepared to h",
+    "url": ""
+  },
+  {
+    "title": "International Overdose Awareness Day (PA Campus)",
+    "location": "PA Campus",
+    "start": "2025-08-28T13:00:00",
+    "end": "2025-08-28T15:00:00",
+    "description": "An occasion for us to support/remember those affected by an ov",
+    "url": ""
+  },
+  {
+    "title": "Social Insurance Number (SIN) Clinic & Tax Information Booth",
+    "location": "ISSAC Training Room (Room 70.4, Lower Place Riel, 1 Campus Driv",
+    "start": "2025-09-03T10:00:00",
+    "end": "2025-09-03T14:00:00",
+    "description": "Planning to work in Canada? Not sure how taxes or benefits wor",
+    "url": ""
+  },
+  {
+    "title": "PA Campus Orientation 1 (PA Campus)",
+    "location": "Room 246, PA Campus",
+    "start": "2025-08-27T14:00:00",
+    "end": "2025-08-27T16:00:00",
+    "description": "Come out and get familiar with all that PA Campus has to offeryou this year!",
+    "url": ""
+  },
+  {
+    "title": "PA Campus Orientation 2 (PA Campus)",
+    "location": "Room 246, PA Campus",
+    "start": "2025-08-28T14:00:00",
+    "end": "2025-08-28T16:00:00",
+    "description": "Come out and get familiar with all that PA Campus has to offeryou this year!",
+    "url": ""
+  },
+  {
+    "title": "Fall Welcome Pep Rally",
+    "location": "Physical Activity Complex (PAC) Gym",
+    "start": "2025-09-02T10:45:00",
+    "end": "2025-09-02T11:30:00",
+    "description": "Get ready to kick off your USask experience with energy, exci",
+    "url": ""
+  },
+  {
+    "title": "Fall Welcome Hub",
+    "location": "The Bowl",
+    "start": "2025-09-02T09:00:00",
+    "end": "2025-09-02T15:00:00",
+    "description": "We're rolling out the green carpet with a vibrant, central We",
+    "url": ""
+  },
+  {
+    "title": "Shopping Trip with ISSAC",
+    "location": "ISSAC Lounge (Room 70, Lower Place Riel)",
+    "start": "2025-09-02T16:00:00",
+    "end": "2025-09-02T18:00:00",
+    "description": "New international and exchange students, join the Internation",
+    "url": ""
+  },
+  {
+    "title": "Fall Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-11-04T12:00:00",
+    "end": "2025-11-04T13:00:00",
+    "description": "Fall yoga sessions for PA Campus students, staff and faculty.",
+    "url": ""
+  },
+  {
+    "title": "Fall Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-10-14T12:00:00",
+    "end": "2025-10-14T13:00:00",
+    "description": "Fall yoga sessions for PA Campus students, staff and faculty.",
+    "url": ""
+  },
+  {
+    "title": "Fall Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-10-21T12:00:00",
+    "end": "2025-10-21T13:00:00",
+    "description": "Fall yoga sessions for PA Campus students, staff and faculty.",
+    "url": ""
+  },
+  {
+    "title": "Fall Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-10-28T12:00:00",
+    "end": "2025-10-28T13:00:00",
+    "description": "Fall yoga sessions for PA Campus students, staff and faculty.",
+    "url": ""
+  },
+  {
+    "title": "Fall Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-10-07T12:00:00",
+    "end": "2025-10-07T13:00:00",
+    "description": "Fall yoga session for PA Campus students, staff and faculty.",
+    "url": ""
+  },
+  {
+    "title": "Fall Yoga (PA Campus)",
+    "location": "Room 161, PA Campus",
+    "start": "2025-09-23T12:00:00",
+    "end": "2025-09-23T13:00:00",
+    "description": "Six-week yoga session for PA Campus students, staff and facul",
+    "url": ""
+  },
+  {
+    "title": "Mini Wellness Workshop – College of Nursing (PA Campus)",
+    "location": "Room 136, PA Campus",
+    "start": "2025-09-08T14:00:00",
+    "end": "2025-09-08T15:30:00",
+    "description": "A workshop is for nursing students to prepare for the upcomingFall Semester.",
+    "url": ""
+  }
+]
