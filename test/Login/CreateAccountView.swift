@@ -23,31 +23,24 @@ struct CreateAccountView: View {
     
     var body: some View {
         ZStack {
-            Color.green
-                .ignoresSafeArea() // Ensure the green background covers the entire screen
-            Circle()
-                .scale(1.7)
-                .foregroundColor(.white.opacity(0.15))
-            Circle()
-                .scale(1.35)
-                .foregroundColor(.white)
+            Color.green.ignoresSafeArea()
+            Circle().scale(1.7).foregroundColor(.white.opacity(0.15))
+            Circle().scale(1.35).foregroundColor(.white)
             
             VStack(spacing: 20) {
                 Text("Create Account")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                 
-                Text("User Type: \(userType)") // Display the selected user type
+                Text("User Type: \(userType)")
                     .font(.headline)
                     .foregroundColor(.black)
                 
-                TextField("New Username", text: $newUsername)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .padding(.horizontal)
+                // Username
+                StyledTextField(placeholder: "New Username", text: $newUsername)
                 
-                SecureField("New Password", text: $newPassword)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .padding(.horizontal)
+                // Password
+                StyledTextField(placeholder: "New Password", text: $newPassword, isSecure: true)
                 
                 // Password requirements text
                 Text("Password must be 8-12 characters and contain at least 1 digit and 1 special character.")
@@ -56,10 +49,10 @@ struct CreateAccountView: View {
                     .multilineTextAlignment(.center)
                     .padding(.horizontal)
                 
-                SecureField("Confirm Password", text: $confirmPassword)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .padding(.horizontal)
+                // Confirm Password
+                StyledTextField(placeholder: "Confirm Password", text: $confirmPassword, isSecure: true)
 
+                // Create Button
                 Button(action: {
                     if newUsername.isEmpty || newPassword.isEmpty || confirmPassword.isEmpty {
                         alertMessage = "Please fill in all fields."
@@ -97,7 +90,6 @@ struct CreateAccountView: View {
                         .cornerRadius(10)
                         .shadow(radius: 5)
                 }
-
                 .padding(.horizontal)
                 .alert(isPresented: $showAlert) {
                     Alert(
@@ -115,25 +107,48 @@ struct CreateAccountView: View {
     
     // Password validation function
     func isPasswordValid(_ password: String) -> Bool {
-        // Check password length (8-12 characters)
-        guard password.count >= 8 && password.count <= 12 else {
-            return false
-        }
-        
-        // Check for at least 1 digit
+        guard password.count >= 8 && password.count <= 12 else { return false }
         let digitRegex = ".*[0-9]+.*"
         let digitPredicate = NSPredicate(format: "SELF MATCHES %@", digitRegex)
-        guard digitPredicate.evaluate(with: password) else {
-            return false
-        }
-        
-        // Check for at least 1 special character
+        guard digitPredicate.evaluate(with: password) else { return false }
         let specialCharacterRegex = ".*[!@#$%^&*()]+.*"
         let specialCharacterPredicate = NSPredicate(format: "SELF MATCHES %@", specialCharacterRegex)
-        guard specialCharacterPredicate.evaluate(with: password) else {
-            return false
-        }
-        
+        guard specialCharacterPredicate.evaluate(with: password) else { return false }
         return true
+    }
+}
+
+// MARK: - Reusable Styled Field (removes black underline)
+private struct StyledTextField: View {
+    let placeholder: String
+    @Binding var text: String
+    var isSecure: Bool = false
+
+    var body: some View {
+        ZStack(alignment: .leading) {
+            if text.isEmpty {
+                Text(placeholder)
+                    .foregroundColor(.black.opacity(0.35))
+                    .padding(.horizontal, 16)
+            }
+
+            if isSecure {
+                SecureField("", text: $text)
+                    .foregroundColor(.black)
+                    .padding(12)
+            } else {
+                TextField("", text: $text)
+                    .textInputAutocapitalization(.never)
+                    .autocorrectionDisabled(true)
+                    .foregroundColor(.black)
+                    .padding(12)
+            }
+        }
+        .background(
+            RoundedRectangle(cornerRadius: 10)
+                .fill(Color.white)
+                .shadow(radius: 2, y: 1)
+        )
+        .padding(.horizontal)
     }
 }

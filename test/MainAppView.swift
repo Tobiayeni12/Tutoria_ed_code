@@ -4,6 +4,7 @@
 //
 //  Created by Tobi Ayeni on 2025-03-14.
 //
+
 import SwiftUI
 
 struct MainAppView: View {
@@ -12,7 +13,8 @@ struct MainAppView: View {
     var studentDetails: StudentDetails?
 
     var body: some View {
-        VStack(spacing: 0) {
+        ZStack {
+            // CONTENT
             TabView(selection: $selectedTab) {
                 FirstView(showTabBar: $showTabBar, selectedTab: $selectedTab)
                     .tag(0)
@@ -27,24 +29,28 @@ struct MainAppView: View {
                     .tag(3)
 
                 NavigationStack {
-                    ProfileView(studentDetails: studentDetails ?? StudentDetails(
-                        fullName: "Unknown",
-                        levelOfEducation: "Unknown",
-                        highSchoolName: "",
-                        universityName: "",
-                        yearOfStudy: "",
-                        major: ""
-                    ))
+                    ProfileView(
+                        studentDetails: studentDetails ?? StudentDetails(
+                            fullName: "Unknown",
+                            levelOfEducation: "Unknown",
+                            highSchoolName: "",
+                            universityName: "",
+                            yearOfStudy: "",
+                            major: ""
+                        )
+                    )
                 }
                 .tag(4)
             }
-            .tabViewStyle(.page(indexDisplayMode: .never))
+            .tabViewStyle(.automatic)            // no paging => no swipe
+            .toolbar(.hidden, for: .tabBar)      // hide system tab bar
             .edgesIgnoringSafeArea(.all)
-
-            // Tab Bar — flat design without rounded corners
+        }
+        // Render YOUR custom bar as a safe-area inset so content never sits under it
+        .safeAreaInset(edge: .bottom) {
             if showTabBar {
                 HStack(spacing: 0) {
-                    ForEach(0..<5, id: \.self) { index in
+                    ForEach(0..<tabBarItems.count, id: \.self) { index in
                         TabBarButton(
                             systemName: tabBarItems[index].icon,
                             label: tabBarItems[index].label,
@@ -55,17 +61,14 @@ struct MainAppView: View {
                         .frame(maxWidth: .infinity)
                     }
                 }
-                .padding(.top, 12)
-                .padding(.bottom, 30) // lifts it above swipe area
-                .background(
-                    Color.black
-                        .edgesIgnoringSafeArea(.bottom)
-                )
-                .transition(.move(edge: .bottom).combined(with: .opacity))
+                .padding(.vertical, 8)                 // even padding (no gap/strip above)
+                .background(Color.black)               // only the bar; no overlay above it
                 .animation(.easeInOut(duration: 0.3), value: showTabBar)
+            } else {
+                // When hidden, reserve 0 height
+                Color.clear.frame(height: 0)
             }
         }
-        .edgesIgnoringSafeArea(.all)
     }
 
     private let tabBarItems: [(icon: String, label: String)] = [
@@ -76,3 +79,4 @@ struct MainAppView: View {
         ("person", "Profile")
     ]
 }
+

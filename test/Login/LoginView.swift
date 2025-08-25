@@ -18,20 +18,30 @@ struct LoginView: View {
     @State private var isUsernameValid: Bool = true
     @State private var isPasswordValid: Bool = true
 
-    // Focus handling so we can dismiss keyboard on screen tap
     @FocusState private var focusedField: Field?
     private enum Field { case username, password }
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ZStack {
                 Color.green.ignoresSafeArea()
                 Circle().scale(1.7).foregroundColor(.white.opacity(0.15))
                 Circle().scale(1.35).foregroundColor(.white)
 
                 VStack(spacing: 20) {
-                    Text("Welcome!")
-                        .font(.largeTitle).fontWeight(.bold)
+                    // Header
+                    VStack(alignment: .leading, spacing: 6) {
+                        Text("Login")
+                            .font(.largeTitle)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.black)
+                        Text("Welcome!")
+                            .font(.title3)
+                            .fontWeight(.semibold)          // ✅ use fontWeight
+                            .foregroundColor(Color.black.opacity(0.75)) // ✅ explicit Color.black
+                    }
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.horizontal)
 
                     // Username
                     StyledTextField(
@@ -68,7 +78,7 @@ struct LoginView: View {
                     }) {
                         Text("Login")
                             .font(.headline)
-                            .foregroundColor(.black)
+                            .foregroundColor(Color.black)
                             .padding()
                             .frame(maxWidth: .infinity)
                             .background(Color.green)
@@ -96,9 +106,8 @@ struct LoginView: View {
                     }
                     .padding(.horizontal)
                 }
-                .padding()
+                .padding(.bottom)
             }
-            .navigationTitle("Login")
             .background(
                 NavigationLink(
                     destination: UserTypeSelectionView(
@@ -109,10 +118,8 @@ struct LoginView: View {
                     isActive: $showUserTypeSelectionView
                 ) { EmptyView() }
             )
-            // Dismiss keyboard when tapping anywhere outside the fields
             .contentShape(Rectangle())
             .onTapGesture { focusedField = nil }
-            // Add a toolbar “Done” button above the keyboard as well
             .toolbar {
                 ToolbarItemGroup(placement: .keyboard) {
                     Spacer()
@@ -124,7 +131,6 @@ struct LoginView: View {
     }
 }
 
-/// A reusable text field with a bright placeholder and consistent styling
 private struct StyledTextField: View {
     @Binding var text: String
     let placeholder: String
@@ -133,10 +139,9 @@ private struct StyledTextField: View {
 
     var body: some View {
         ZStack(alignment: .leading) {
-            // Custom placeholder with stronger contrast
             if text.isEmpty {
                 Text(placeholder)
-                    .foregroundColor(Color.black.opacity(0.35))   // <— more visible
+                    .foregroundColor(Color.black.opacity(0.35))
                     .padding(.horizontal, 16)
             }
 
@@ -149,7 +154,7 @@ private struct StyledTextField: View {
                         .autocorrectionDisabled(true)
                 }
             }
-            .foregroundColor(.black) // entered text color
+            .foregroundColor(Color.black)
             .padding(12)
         }
         .background(
@@ -164,3 +169,4 @@ private struct StyledTextField: View {
         .padding(.horizontal)
     }
 }
+
