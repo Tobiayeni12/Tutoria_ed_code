@@ -16,44 +16,62 @@ struct EventDetailView: View {
 
     var body: some View {
         VStack(spacing: 16) {
+            // Main info card
             ZStack {
                 RoundedRectangle(cornerRadius: 16)
                     .fill(Color.white)
                     .shadow(radius: 3, y: 1)
+
                 VStack(alignment: .leading, spacing: 10) {
                     HStack {
                         Image(systemName: event.category.icon)
                             .foregroundColor(event.category.color)
-                        Text(event.title).font(.title3).fontWeight(.semibold)
+
+                        Text(event.title)
+                            .font(.title3).fontWeight(.semibold)
+                            .foregroundColor(.black)            // <-- explicit
                         Spacer()
                     }
+
                     HStack {
                         Image(systemName: "calendar")
+                            .foregroundColor(.gray)
                         Text(event.date.formatted(date: .complete, time: .shortened))
+                            .foregroundColor(.gray)            // <-- explicit
                     }
-                    .foregroundColor(.secondary)
+
                     HStack {
                         Image(systemName: "mappin.and.ellipse")
+                            .foregroundColor(.gray)
                         Text(event.location)
+                            .foregroundColor(.gray)            // <-- explicit
                     }
-                    .foregroundColor(.secondary)
+
                     Text(event.summary)
+                        .foregroundColor(.black)              // <-- explicit
                         .padding(.top, 6)
                 }
                 .padding()
             }
             .padding(.horizontal)
 
+            // More info link
             if let link = event.link {
                 Link(destination: link) {
                     Label("More info", systemImage: "link")
+                        .foregroundColor(.blue)               // <-- explicit
                         .frame(maxWidth: .infinity)
                         .padding()
-                        .background(RoundedRectangle(cornerRadius: 12).fill(Color.white).shadow(radius: 2, y: 1))
+                        .background(
+                            RoundedRectangle(cornerRadius: 12)
+                                .fill(Color.white)
+                                .shadow(radius: 2, y: 1)
+                        )
                 }
                 .padding(.horizontal)
             }
 
+            // Add to calendar button
             Button {
                 Task { await addToCalendar() }
             } label: {
@@ -106,7 +124,6 @@ struct EventDetailView: View {
     }
 }
 
-/// UIKit wrapper to present the native calendar editor prefilled with our event
 private struct EventEditView: UIViewControllerRepresentable {
     let event: CampusEvent
 
@@ -119,7 +136,7 @@ private struct EventEditView: UIViewControllerRepresentable {
         ekEvent.title = event.title
         ekEvent.location = event.location
         ekEvent.startDate = event.date
-        ekEvent.endDate = event.date.addingTimeInterval(60 * 60) // 1 hour default
+        ekEvent.endDate = event.date.addingTimeInterval(60 * 60)
         ekEvent.notes = event.summary
         controller.event = ekEvent
 
